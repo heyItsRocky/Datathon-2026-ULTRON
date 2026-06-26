@@ -1,0 +1,1 @@
+import { useQuery } from '@tanstack/react-query'; import { fetchCyberNetwork } from '../api/networkApi'; export function useCyberNetwork(){return useQuery({queryKey:['cyber-network'],queryFn:fetchCyberNetwork})}

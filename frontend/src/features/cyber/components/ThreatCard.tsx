@@ -1,0 +1,4 @@
+import { ShieldAlert } from 'lucide-react';
+import { SeverityBadge } from '@/shared/components';
+export interface ThreatCardData { type:string; severity:'extreme'|'high'|'medium'|'low'; entities:string[]; description:string; incidents:number }
+export function ThreatCard({ threat, onClick }: { threat: ThreatCardData; onClick?:()=>void }) { return <button type="button" onClick={onClick} className="glass-card rounded-[var(--radius-xl)] p-4 text-left transition-[var(--transition-base)] hover:-translate-y-0.5"><div className="flex items-center justify-between"><ShieldAlert className="h-5 w-5 text-[var(--color-cyber-cyan)]"/><SeverityBadge severity={threat.severity}/></div><h3 className="mt-3 font-bold">{threat.type}</h3><p className="mt-1 text-sm text-[var(--color-text-secondary)]">{threat.description}</p><p className="mt-3 text-xs text-[var(--color-text-muted)]">{threat.incidents} incidents · {threat.entities.join(', ')}</p></button>; }

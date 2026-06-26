@@ -1,0 +1,18 @@
+[
+  {"districtId":"bengaluru-urban","districtName":"Bengaluru Urban","severity":"high","trend":"up","incidentCount":128,"percentChange":18,"topCrimeTypes":["Cyber Fraud","Chain Snatching","Vehicle Theft"],"riskScore":92,"lastUpdated":"2026-06-24"},
+  {"districtId":"mangaluru","districtName":"Mangaluru","severity":"high","trend":"up","incidentCount":96,"percentChange":16,"topCrimeTypes":["Invoice Fraud","Narcotics"],"riskScore":88,"lastUpdated":"2026-06-24"},
+  {"districtId":"kalaburagi","districtName":"Kalaburagi","severity":"high","trend":"up","incidentCount":91,"percentChange":14,"topCrimeTypes":["Burglary","Assault"],"riskScore":84,"lastUpdated":"2026-06-24"},
+  {"districtId":"belagavi","districtName":"Belagavi","severity":"medium","trend":"stable","incidentCount":67,"percentChange":3,"topCrimeTypes":["Domestic Violence","Burglary"],"riskScore":65,"lastUpdated":"2026-06-24"},
+  {"districtId":"mysuru","districtName":"Mysuru","severity":"medium","trend":"up","incidentCount":54,"percentChange":12,"topCrimeTypes":["Chain Snatching","Theft"],"riskScore":71,"lastUpdated":"2026-06-24"},
+  {"districtId":"raichur","districtName":"Raichur","severity":"medium","trend":"stable","incidentCount":61,"percentChange":5,"topCrimeTypes":["Assault","Theft"],"riskScore":69,"lastUpdated":"2026-06-24"},
+  {"districtId":"davanagere","districtName":"Davanagere","severity":"medium","trend":"up","incidentCount":59,"percentChange":9,"topCrimeTypes":["Theft","Repeat Offender"],"riskScore":67,"lastUpdated":"2026-06-24"},
+  {"districtId":"shivamogga","districtName":"Shivamogga","severity":"medium","trend":"stable","incidentCount":51,"percentChange":4,"topCrimeTypes":["Signal Monitoring","Public Order"],"riskScore":62,"lastUpdated":"2026-06-24"},
+  {"districtId":"tumakuru","districtName":"Tumakuru","severity":"medium","trend":"down","incidentCount":49,"percentChange":-6,"topCrimeTypes":["Highway Robbery","Theft"],"riskScore":60,"lastUpdated":"2026-06-24"},
+  {"districtId":"hubli-dharwad","districtName":"Hubli-Dharwad","severity":"low","trend":"down","incidentCount":32,"percentChange":-8,"topCrimeTypes":["Vehicle Theft"],"riskScore":45,"lastUpdated":"2026-06-24"},
+  {"districtId":"bengaluru-rural","districtName":"Bengaluru Rural","severity":"low","trend":"stable","incidentCount":38,"percentChange":2,"topCrimeTypes":["Ransomware Attempt","Burglary"],"riskScore":48,"lastUpdated":"2026-06-24"},
+  {"districtId":"uttara-kannada","districtName":"Uttara Kannada","severity":"low","trend":"up","incidentCount":41,"percentChange":7,"topCrimeTypes":["Narcotics","Border Smuggling"],"riskScore":52,"lastUpdated":"2026-06-24"},
+  {"districtId":"dakshina-kannada","districtName":"Dakshina Kannada","severity":"low","trend":"stable","incidentCount":29,"percentChange":1,"topCrimeTypes":["Cyber Fraud"],"riskScore":43,"lastUpdated":"2026-06-24"},
+  {"districtId":"ballari","districtName":"Ballari","severity":"low","trend":"stable","incidentCount":27,"percentChange":0,"topCrimeTypes":["Theft"],"riskScore":40,"lastUpdated":"2026-06-24"},
+  {"districtId":"bidar","districtName":"Bidar","severity":"low","trend":"down","incidentCount":22,"percentChange":-3,"topCrimeTypes":["Assault"],"riskScore":36,"lastUpdated":"2026-06-24"},
+  {"districtId":"chikkamagaluru","districtName":"Chikkamagaluru","severity":"low","trend":"stable","incidentCount":19,"percentChange":2,"topCrimeTypes":["Tourist Theft"],"riskScore":34,"lastUpdated":"2026-06-24"}
+]

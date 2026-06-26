@@ -1,0 +1,52 @@
+[
+  {
+    "district": "Bengaluru Urban",
+    "districtId": "bengaluru-urban",
+    "level": "extreme",
+    "crimeRate": 87,
+    "trend": 12,
+    "population": 12000000,
+    "policeStations": 85,
+    "priority": 1
+  },
+  {
+    "district": "Mysuru",
+    "districtId": "mysuru",
+    "level": "high",
+    "crimeRate": 81,
+    "trend": 11,
+    "population": 11200000,
+    "policeStations": 78,
+    "priority": 2
+  },
+  {
+    "district": "Belagavi",
+    "districtId": "belagavi",
+    "level": "high",
+    "crimeRate": 75,
+    "trend": 10,
+    "population": 10400000,
+    "policeStations": 71,
+    "priority": 3
+  },
+  {
+    "district": "Hubli-Dharwad",
+    "districtId": "hubli-dharwad",
+    "level": "high",
+    "crimeRate": 69,
+    "trend": 9,
+    "population": 9600000,
+    "policeStations": 64,
+    "priority": 4
+  },
+  {
+    "district": "Kalaburagi",
+    "districtId": "kalaburagi",
+    "level": "high",
+    "crimeRate": 63,
+    "trend": 8,
+    "population": 8800000,
+    "policeStations": 57,
+    "priority": 5
+  }
+]

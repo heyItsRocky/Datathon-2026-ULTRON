@@ -1,0 +1,2548 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "IP-0",
+          "label": "10.0.0.10",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.10",
+          "incidentCount": 1
+        }
+      },
+      {
+        "data": {
+          "id": "IP-1",
+          "label": "10.0.0.11",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.11",
+          "incidentCount": 2
+        }
+      },
+      {
+        "data": {
+          "id": "IP-2",
+          "label": "10.0.0.12",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.12",
+          "incidentCount": 3
+        }
+      },
+      {
+        "data": {
+          "id": "IP-3",
+          "label": "10.0.0.13",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.13",
+          "incidentCount": 4
+        }
+      },
+      {
+        "data": {
+          "id": "IP-4",
+          "label": "10.0.0.14",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.14",
+          "incidentCount": 5
+        }
+      },
+      {
+        "data": {
+          "id": "IP-5",
+          "label": "10.0.0.15",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.15",
+          "incidentCount": 6
+        }
+      },
+      {
+        "data": {
+          "id": "IP-6",
+          "label": "10.0.0.16",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.16",
+          "incidentCount": 7
+        }
+      },
+      {
+        "data": {
+          "id": "IP-7",
+          "label": "10.0.0.17",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.17",
+          "incidentCount": 8
+        }
+      },
+      {
+        "data": {
+          "id": "IP-8",
+          "label": "10.0.0.18",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.18",
+          "incidentCount": 9
+        }
+      },
+      {
+        "data": {
+          "id": "IP-9",
+          "label": "10.0.0.19",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.19",
+          "incidentCount": 10
+        }
+      },
+      {
+        "data": {
+          "id": "IP-10",
+          "label": "10.0.0.20",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.20",
+          "incidentCount": 11
+        }
+      },
+      {
+        "data": {
+          "id": "IP-11",
+          "label": "10.0.0.21",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.21",
+          "incidentCount": 12
+        }
+      },
+      {
+        "data": {
+          "id": "IP-12",
+          "label": "10.0.0.22",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.22",
+          "incidentCount": 1
+        }
+      },
+      {
+        "data": {
+          "id": "IP-13",
+          "label": "10.0.0.23",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.23",
+          "incidentCount": 2
+        }
+      },
+      {
+        "data": {
+          "id": "IP-14",
+          "label": "10.0.0.24",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.24",
+          "incidentCount": 3
+        }
+      },
+      {
+        "data": {
+          "id": "IP-15",
+          "label": "10.0.0.25",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.25",
+          "incidentCount": 4
+        }
+      },
+      {
+        "data": {
+          "id": "IP-16",
+          "label": "10.0.0.26",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.26",
+          "incidentCount": 5
+        }
+      },
+      {
+        "data": {
+          "id": "IP-17",
+          "label": "10.0.0.27",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.27",
+          "incidentCount": 6
+        }
+      },
+      {
+        "data": {
+          "id": "IP-18",
+          "label": "10.0.0.28",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.28",
+          "incidentCount": 7
+        }
+      },
+      {
+        "data": {
+          "id": "IP-19",
+          "label": "10.0.0.29",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.29",
+          "incidentCount": 8
+        }
+      },
+      {
+        "data": {
+          "id": "IP-20",
+          "label": "10.0.0.30",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.30",
+          "incidentCount": 9
+        }
+      },
+      {
+        "data": {
+          "id": "IP-21",
+          "label": "10.0.0.31",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.31",
+          "incidentCount": 10
+        }
+      },
+      {
+        "data": {
+          "id": "IP-22",
+          "label": "10.0.0.32",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.32",
+          "incidentCount": 11
+        }
+      },
+      {
+        "data": {
+          "id": "IP-23",
+          "label": "10.0.0.33",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.33",
+          "incidentCount": 12
+        }
+      },
+      {
+        "data": {
+          "id": "IP-24",
+          "label": "10.0.0.34",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.34",
+          "incidentCount": 1
+        }
+      },
+      {
+        "data": {
+          "id": "IP-25",
+          "label": "10.0.0.35",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.35",
+          "incidentCount": 2
+        }
+      },
+      {
+        "data": {
+          "id": "IP-26",
+          "label": "10.0.0.36",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.36",
+          "incidentCount": 3
+        }
+      },
+      {
+        "data": {
+          "id": "IP-27",
+          "label": "10.0.0.37",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.37",
+          "incidentCount": 4
+        }
+      },
+      {
+        "data": {
+          "id": "IP-28",
+          "label": "10.0.0.38",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.38",
+          "incidentCount": 5
+        }
+      },
+      {
+        "data": {
+          "id": "IP-29",
+          "label": "10.0.0.39",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.39",
+          "incidentCount": 6
+        }
+      },
+      {
+        "data": {
+          "id": "IP-30",
+          "label": "10.0.0.40",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.40",
+          "incidentCount": 7
+        }
+      },
+      {
+        "data": {
+          "id": "IP-31",
+          "label": "10.0.0.41",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.41",
+          "incidentCount": 8
+        }
+      },
+      {
+        "data": {
+          "id": "IP-32",
+          "label": "10.0.0.42",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.42",
+          "incidentCount": 9
+        }
+      },
+      {
+        "data": {
+          "id": "IP-33",
+          "label": "10.0.0.43",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.43",
+          "incidentCount": 10
+        }
+      },
+      {
+        "data": {
+          "id": "IP-34",
+          "label": "10.0.0.44",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.44",
+          "incidentCount": 11
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-0",
+          "label": "bank-secure-login0.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "bank-secure-login0.net",
+          "threatScore": 50
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-1",
+          "label": "sbi-verify1.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "sbi-verify1.net",
+          "threatScore": 52
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-2",
+          "label": "corpdata2.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "corpdata2.net",
+          "threatScore": 54
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-3",
+          "label": "ksp-alerts3.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "ksp-alerts3.net",
+          "threatScore": 56
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-4",
+          "label": "upi-refund4.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "upi-refund4.net",
+          "threatScore": 58
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-5",
+          "label": "bank-secure-login5.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "bank-secure-login5.net",
+          "threatScore": 60
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-6",
+          "label": "sbi-verify6.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "sbi-verify6.net",
+          "threatScore": 62
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-7",
+          "label": "corpdata7.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "corpdata7.net",
+          "threatScore": 64
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-8",
+          "label": "ksp-alerts8.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "ksp-alerts8.net",
+          "threatScore": 66
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-9",
+          "label": "upi-refund9.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "upi-refund9.net",
+          "threatScore": 68
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-10",
+          "label": "bank-secure-login10.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "bank-secure-login10.net",
+          "threatScore": 70
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-11",
+          "label": "sbi-verify11.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "sbi-verify11.net",
+          "threatScore": 72
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-12",
+          "label": "corpdata12.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "corpdata12.net",
+          "threatScore": 74
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-13",
+          "label": "ksp-alerts13.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "ksp-alerts13.net",
+          "threatScore": 76
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-14",
+          "label": "upi-refund14.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "upi-refund14.net",
+          "threatScore": 78
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-15",
+          "label": "bank-secure-login15.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "bank-secure-login15.net",
+          "threatScore": 80
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-16",
+          "label": "sbi-verify16.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "sbi-verify16.net",
+          "threatScore": 82
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-17",
+          "label": "corpdata17.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "corpdata17.net",
+          "threatScore": 84
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-18",
+          "label": "ksp-alerts18.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "ksp-alerts18.net",
+          "threatScore": 86
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-19",
+          "label": "upi-refund19.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "upi-refund19.net",
+          "threatScore": 88
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-20",
+          "label": "bank-secure-login20.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "bank-secure-login20.net",
+          "threatScore": 90
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-21",
+          "label": "sbi-verify21.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "sbi-verify21.net",
+          "threatScore": 92
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-1",
+          "label": "server-1",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-2",
+          "label": "server-2",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-3",
+          "label": "server-3",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-4",
+          "label": "server-4",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-5",
+          "label": "server-5",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-6",
+          "label": "server-6",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-7",
+          "label": "server-7",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-8",
+          "label": "server-8",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-9",
+          "label": "server-9",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-10",
+          "label": "server-10",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-11",
+          "label": "server-11",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-12",
+          "label": "server-12",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-13",
+          "label": "server-13",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-14",
+          "label": "server-14",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "SRV-15",
+          "label": "server-15",
+          "type": "server",
+          "color": "#6b7280",
+          "server": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-1",
+          "label": "Org 1",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-2",
+          "label": "Org 2",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-3",
+          "label": "Org 3",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-4",
+          "label": "Org 4",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-5",
+          "label": "Org 5",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-6",
+          "label": "Org 6",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-7",
+          "label": "Org 7",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-8",
+          "label": "Org 8",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-9",
+          "label": "Org 9",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "CYV-10",
+          "label": "Org 10",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "ye1",
+          "source": "IP-0",
+          "target": "DOM-0",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 0,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye2",
+          "source": "IP-1",
+          "target": "DOM-1",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye3",
+          "source": "IP-2",
+          "target": "DOM-2",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 2,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye4",
+          "source": "IP-3",
+          "target": "DOM-3",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye5",
+          "source": "IP-4",
+          "target": "DOM-4",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 4,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye6",
+          "source": "IP-5",
+          "target": "DOM-5",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye7",
+          "source": "IP-6",
+          "target": "DOM-6",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 6,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye8",
+          "source": "IP-7",
+          "target": "DOM-7",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye9",
+          "source": "IP-8",
+          "target": "DOM-8",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 8,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye10",
+          "source": "IP-9",
+          "target": "DOM-9",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye11",
+          "source": "IP-10",
+          "target": "DOM-10",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 0,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye12",
+          "source": "IP-11",
+          "target": "DOM-11",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye13",
+          "source": "IP-12",
+          "target": "DOM-12",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 2,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye14",
+          "source": "IP-13",
+          "target": "DOM-13",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye15",
+          "source": "IP-14",
+          "target": "DOM-14",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 4,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye16",
+          "source": "IP-15",
+          "target": "DOM-15",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye17",
+          "source": "IP-16",
+          "target": "DOM-16",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 6,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye18",
+          "source": "IP-17",
+          "target": "DOM-17",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye19",
+          "source": "IP-18",
+          "target": "DOM-18",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 8,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye20",
+          "source": "IP-19",
+          "target": "DOM-19",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye21",
+          "source": "IP-20",
+          "target": "DOM-20",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 0,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye22",
+          "source": "IP-21",
+          "target": "DOM-21",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye23",
+          "source": "IP-22",
+          "target": "DOM-0",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 2,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye24",
+          "source": "IP-23",
+          "target": "DOM-1",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye25",
+          "source": "IP-24",
+          "target": "DOM-2",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 4,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye26",
+          "source": "IP-25",
+          "target": "DOM-3",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye27",
+          "source": "IP-26",
+          "target": "DOM-4",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 6,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye28",
+          "source": "IP-27",
+          "target": "DOM-5",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye29",
+          "source": "IP-28",
+          "target": "DOM-6",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 8,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye30",
+          "source": "IP-29",
+          "target": "DOM-7",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye31",
+          "source": "IP-30",
+          "target": "DOM-8",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 0,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye32",
+          "source": "IP-31",
+          "target": "DOM-9",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye33",
+          "source": "IP-32",
+          "target": "DOM-10",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 2,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye34",
+          "source": "IP-33",
+          "target": "DOM-11",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye35",
+          "source": "IP-34",
+          "target": "DOM-12",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 4,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye36",
+          "source": "IP-0",
+          "target": "DOM-13",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye37",
+          "source": "IP-1",
+          "target": "DOM-14",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 6,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye38",
+          "source": "IP-2",
+          "target": "DOM-15",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye39",
+          "source": "IP-3",
+          "target": "DOM-16",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 8,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye40",
+          "source": "IP-4",
+          "target": "DOM-17",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye41",
+          "source": "IP-5",
+          "target": "DOM-18",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 0,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye42",
+          "source": "IP-6",
+          "target": "DOM-19",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye43",
+          "source": "IP-7",
+          "target": "DOM-20",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 2,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye44",
+          "source": "IP-8",
+          "target": "DOM-21",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye45",
+          "source": "IP-9",
+          "target": "DOM-0",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 4,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye46",
+          "source": "IP-10",
+          "target": "DOM-1",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye47",
+          "source": "IP-11",
+          "target": "DOM-2",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 6,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye48",
+          "source": "IP-12",
+          "target": "DOM-3",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye49",
+          "source": "IP-13",
+          "target": "DOM-4",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 8,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye50",
+          "source": "IP-14",
+          "target": "DOM-5",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye51",
+          "source": "IP-15",
+          "target": "DOM-6",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 0,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye52",
+          "source": "IP-16",
+          "target": "DOM-7",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye53",
+          "source": "IP-17",
+          "target": "DOM-8",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 2,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye54",
+          "source": "IP-18",
+          "target": "DOM-9",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye55",
+          "source": "IP-19",
+          "target": "DOM-10",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 4,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye56",
+          "source": "IP-20",
+          "target": "DOM-11",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye57",
+          "source": "IP-21",
+          "target": "DOM-12",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 6,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye58",
+          "source": "IP-22",
+          "target": "DOM-13",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye59",
+          "source": "IP-23",
+          "target": "DOM-14",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 8,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye60",
+          "source": "IP-24",
+          "target": "DOM-15",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye61",
+          "source": "IP-25",
+          "target": "DOM-16",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 0,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye62",
+          "source": "IP-26",
+          "target": "DOM-17",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye63",
+          "source": "IP-27",
+          "target": "DOM-18",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 2,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye64",
+          "source": "IP-28",
+          "target": "DOM-19",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye65",
+          "source": "IP-29",
+          "target": "DOM-20",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 4,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye66",
+          "source": "IP-30",
+          "target": "DOM-21",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye67",
+          "source": "IP-31",
+          "target": "DOM-0",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 6,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye68",
+          "source": "IP-32",
+          "target": "DOM-1",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye69",
+          "source": "IP-33",
+          "target": "DOM-2",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 8,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye70",
+          "source": "IP-34",
+          "target": "DOM-3",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye71",
+          "source": "IP-0",
+          "target": "DOM-4",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 0,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye72",
+          "source": "IP-1",
+          "target": "DOM-5",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye73",
+          "source": "IP-2",
+          "target": "DOM-6",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 2,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye74",
+          "source": "IP-3",
+          "target": "DOM-7",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye75",
+          "source": "IP-4",
+          "target": "DOM-8",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 4,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye76",
+          "source": "IP-5",
+          "target": "DOM-9",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye77",
+          "source": "IP-6",
+          "target": "DOM-10",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 6,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye78",
+          "source": "IP-7",
+          "target": "DOM-11",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye79",
+          "source": "IP-8",
+          "target": "DOM-12",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 8,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye80",
+          "source": "IP-9",
+          "target": "DOM-13",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye81",
+          "source": "IP-10",
+          "target": "DOM-14",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 0,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye82",
+          "source": "IP-11",
+          "target": "DOM-15",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 1,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye83",
+          "source": "IP-12",
+          "target": "DOM-16",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 2,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye84",
+          "source": "IP-13",
+          "target": "DOM-17",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 3,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye85",
+          "source": "IP-14",
+          "target": "DOM-18",
+          "label": "resolves",
+          "color": "#dc2626",
+          "strength": 4,
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye86",
+          "source": "IP-15",
+          "target": "DOM-19",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 5,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye87",
+          "source": "IP-16",
+          "target": "DOM-20",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 6,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye88",
+          "source": "IP-17",
+          "target": "DOM-21",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 7,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye89",
+          "source": "IP-18",
+          "target": "DOM-0",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 8,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye90",
+          "source": "IP-19",
+          "target": "DOM-1",
+          "label": "resolves",
+          "color": "#6b7280",
+          "strength": 9,
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye91",
+          "source": "DOM-0",
+          "target": "SRV-1",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye92",
+          "source": "DOM-1",
+          "target": "SRV-2",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye93",
+          "source": "DOM-2",
+          "target": "SRV-3",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye94",
+          "source": "DOM-3",
+          "target": "SRV-4",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye95",
+          "source": "DOM-4",
+          "target": "SRV-5",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye96",
+          "source": "DOM-5",
+          "target": "SRV-6",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye97",
+          "source": "DOM-6",
+          "target": "SRV-7",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye98",
+          "source": "DOM-7",
+          "target": "SRV-8",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye99",
+          "source": "DOM-8",
+          "target": "SRV-9",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye100",
+          "source": "DOM-9",
+          "target": "SRV-10",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye101",
+          "source": "DOM-10",
+          "target": "SRV-11",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye102",
+          "source": "DOM-11",
+          "target": "SRV-12",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye103",
+          "source": "DOM-12",
+          "target": "SRV-13",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye104",
+          "source": "DOM-13",
+          "target": "SRV-14",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye105",
+          "source": "DOM-14",
+          "target": "SRV-15",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye106",
+          "source": "DOM-15",
+          "target": "SRV-1",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye107",
+          "source": "DOM-16",
+          "target": "SRV-2",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye108",
+          "source": "DOM-17",
+          "target": "SRV-3",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye109",
+          "source": "DOM-18",
+          "target": "SRV-4",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye110",
+          "source": "DOM-19",
+          "target": "SRV-5",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye111",
+          "source": "DOM-20",
+          "target": "SRV-6",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye112",
+          "source": "DOM-21",
+          "target": "SRV-7",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye113",
+          "source": "DOM-0",
+          "target": "SRV-8",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye114",
+          "source": "DOM-1",
+          "target": "SRV-9",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye115",
+          "source": "DOM-2",
+          "target": "SRV-10",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye116",
+          "source": "DOM-3",
+          "target": "SRV-11",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye117",
+          "source": "DOM-4",
+          "target": "SRV-12",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye118",
+          "source": "DOM-5",
+          "target": "SRV-13",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye119",
+          "source": "DOM-6",
+          "target": "SRV-14",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye120",
+          "source": "DOM-7",
+          "target": "SRV-15",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye121",
+          "source": "DOM-8",
+          "target": "SRV-1",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye122",
+          "source": "DOM-9",
+          "target": "SRV-2",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye123",
+          "source": "DOM-10",
+          "target": "SRV-3",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye124",
+          "source": "DOM-11",
+          "target": "SRV-4",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye125",
+          "source": "DOM-12",
+          "target": "SRV-5",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye126",
+          "source": "DOM-13",
+          "target": "SRV-6",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye127",
+          "source": "DOM-14",
+          "target": "SRV-7",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye128",
+          "source": "DOM-15",
+          "target": "SRV-8",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye129",
+          "source": "DOM-16",
+          "target": "SRV-9",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye130",
+          "source": "DOM-17",
+          "target": "SRV-10",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye131",
+          "source": "DOM-18",
+          "target": "SRV-11",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye132",
+          "source": "DOM-19",
+          "target": "SRV-12",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye133",
+          "source": "DOM-20",
+          "target": "SRV-13",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye134",
+          "source": "DOM-21",
+          "target": "SRV-14",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye135",
+          "source": "DOM-0",
+          "target": "SRV-15",
+          "label": "hosts",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ye136",
+          "source": "IP-0",
+          "target": "CYV-1",
+          "label": "targets",
+          "color": "#dc2626",
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye137",
+          "source": "IP-1",
+          "target": "CYV-2",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye138",
+          "source": "IP-2",
+          "target": "CYV-3",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye139",
+          "source": "IP-3",
+          "target": "CYV-4",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye140",
+          "source": "IP-4",
+          "target": "CYV-5",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye141",
+          "source": "IP-5",
+          "target": "CYV-6",
+          "label": "targets",
+          "color": "#dc2626",
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye142",
+          "source": "IP-6",
+          "target": "CYV-7",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye143",
+          "source": "IP-7",
+          "target": "CYV-8",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye144",
+          "source": "IP-8",
+          "target": "CYV-9",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye145",
+          "source": "IP-9",
+          "target": "CYV-10",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye146",
+          "source": "IP-10",
+          "target": "CYV-1",
+          "label": "targets",
+          "color": "#dc2626",
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye147",
+          "source": "IP-11",
+          "target": "CYV-2",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye148",
+          "source": "IP-12",
+          "target": "CYV-3",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye149",
+          "source": "IP-13",
+          "target": "CYV-4",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye150",
+          "source": "IP-14",
+          "target": "CYV-5",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye151",
+          "source": "IP-15",
+          "target": "CYV-6",
+          "label": "targets",
+          "color": "#dc2626",
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye152",
+          "source": "IP-16",
+          "target": "CYV-7",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye153",
+          "source": "IP-17",
+          "target": "CYV-8",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye154",
+          "source": "IP-18",
+          "target": "CYV-9",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye155",
+          "source": "IP-19",
+          "target": "CYV-10",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye156",
+          "source": "IP-20",
+          "target": "CYV-1",
+          "label": "targets",
+          "color": "#dc2626",
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye157",
+          "source": "IP-21",
+          "target": "CYV-2",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye158",
+          "source": "IP-22",
+          "target": "CYV-3",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye159",
+          "source": "IP-23",
+          "target": "CYV-4",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye160",
+          "source": "IP-24",
+          "target": "CYV-5",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye161",
+          "source": "IP-25",
+          "target": "CYV-6",
+          "label": "targets",
+          "color": "#dc2626",
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye162",
+          "source": "IP-26",
+          "target": "CYV-7",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye163",
+          "source": "IP-27",
+          "target": "CYV-8",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye164",
+          "source": "IP-28",
+          "target": "CYV-9",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye165",
+          "source": "IP-29",
+          "target": "CYV-10",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye166",
+          "source": "IP-30",
+          "target": "CYV-1",
+          "label": "targets",
+          "color": "#dc2626",
+          "attackPath": true
+        }
+      },
+      {
+        "data": {
+          "id": "ye167",
+          "source": "IP-31",
+          "target": "CYV-2",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye168",
+          "source": "IP-32",
+          "target": "CYV-3",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye169",
+          "source": "IP-33",
+          "target": "CYV-4",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      },
+      {
+        "data": {
+          "id": "ye170",
+          "source": "IP-34",
+          "target": "CYV-5",
+          "label": "targets",
+          "color": "#6b7280",
+          "attackPath": false
+        }
+      }
+    ]
+  }
+}

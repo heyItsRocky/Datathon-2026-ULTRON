@@ -1,0 +1,1002 @@
+[
+  {
+    "ip": "192.168.1.100",
+    "reputation": "high",
+    "reputationScore": 20,
+    "geolocation": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12,
+      "lng": 77
+    },
+    "network": {
+      "isp": "BSNL",
+      "asn": "AS9800",
+      "org": "BSNL Ltd",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 45,
+      "incidentCount": 1,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Phishing",
+        "Ransomware"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-001",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      },
+      {
+        "id": "CYB-2026-018",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      },
+      {
+        "id": "CYB-2026-021",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      },
+      {
+        "id": "CYB-2026-038",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      }
+    ]
+  },
+  {
+    "ip": "10.0.0.55",
+    "reputation": "medium",
+    "reputationScore": 23,
+    "geolocation": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.1,
+      "lng": 77.1
+    },
+    "network": {
+      "isp": "Airtel",
+      "asn": "AS9801",
+      "org": "Bharti Airtel",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 47,
+      "incidentCount": 2,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Malware",
+        "DDoS"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-002",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      },
+      {
+        "id": "CYB-2026-022",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      },
+      {
+        "id": "CYB-2026-039",
+        "type": "Cyber Fraud",
+        "target": "upi-refund.net"
+      },
+      {
+        "id": "CYB-2026-042",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      }
+    ]
+  },
+  {
+    "ip": "203.0.113.50",
+    "reputation": "medium",
+    "reputationScore": 26,
+    "geolocation": {
+      "city": "Mysuru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.2,
+      "lng": 77.2
+    },
+    "network": {
+      "isp": "Jio",
+      "asn": "AS9802",
+      "org": "Reliance Jio",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 49,
+      "incidentCount": 3,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Ransomware",
+        "Data Breach"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-003",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      },
+      {
+        "id": "CYB-2026-020",
+        "type": "Identity Theft",
+        "target": "verify-bank.co"
+      },
+      {
+        "id": "CYB-2026-023",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      },
+      {
+        "id": "CYB-2026-043",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      }
+    ]
+  },
+  {
+    "ip": "198.51.100.77",
+    "reputation": "high",
+    "reputationScore": 29,
+    "geolocation": {
+      "city": "Belagavi",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.3,
+      "lng": 77.3
+    },
+    "network": {
+      "isp": "ACT",
+      "asn": "AS9803",
+      "org": "ACT Fibernet",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 51,
+      "incidentCount": 4,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "DDoS",
+        "Social Engineering"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-004",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      },
+      {
+        "id": "CYB-2026-021",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      },
+      {
+        "id": "CYB-2026-024",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      },
+      {
+        "id": "CYB-2026-041",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      }
+    ]
+  },
+  {
+    "ip": "172.16.4.20",
+    "reputation": "medium",
+    "reputationScore": 32,
+    "geolocation": {
+      "city": "Hubli-Dharwad",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.4,
+      "lng": 77.4
+    },
+    "network": {
+      "isp": "BSNL",
+      "asn": "AS9804",
+      "org": "BSNL Ltd",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 53,
+      "incidentCount": 5,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Data Breach",
+        "Insider Threat"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-002",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      },
+      {
+        "id": "CYB-2026-005",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      },
+      {
+        "id": "CYB-2026-025",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      },
+      {
+        "id": "CYB-2026-042",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      }
+    ]
+  },
+  {
+    "ip": "45.77.12.9",
+    "reputation": "medium",
+    "reputationScore": 35,
+    "geolocation": {
+      "city": "Kalaburagi",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.5,
+      "lng": 77.5
+    },
+    "network": {
+      "isp": "Airtel",
+      "asn": "AS9805",
+      "org": "Bharti Airtel",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 55,
+      "incidentCount": 6,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Social Engineering",
+        "Web Defacement"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-003",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      },
+      {
+        "id": "CYB-2026-006",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      },
+      {
+        "id": "CYB-2026-023",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      },
+      {
+        "id": "CYB-2026-026",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      }
+    ]
+  },
+  {
+    "ip": "103.21.244.8",
+    "reputation": "high",
+    "reputationScore": 38,
+    "geolocation": {
+      "city": "Mangaluru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.6,
+      "lng": 77.6
+    },
+    "network": {
+      "isp": "Jio",
+      "asn": "AS9806",
+      "org": "Reliance Jio",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 57,
+      "incidentCount": 7,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Insider Threat",
+        "Cyber Fraud"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-007",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      },
+      {
+        "id": "CYB-2026-024",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      },
+      {
+        "id": "CYB-2026-027",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      },
+      {
+        "id": "CYB-2026-044",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      }
+    ]
+  },
+  {
+    "ip": "185.199.108.1",
+    "reputation": "medium",
+    "reputationScore": 41,
+    "geolocation": {
+      "city": "Tumakuru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.7,
+      "lng": 77.7
+    },
+    "network": {
+      "isp": "ACT",
+      "asn": "AS9807",
+      "org": "ACT Fibernet",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 59,
+      "incidentCount": 8,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Web Defacement",
+        "Identity Theft"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-005",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      },
+      {
+        "id": "CYB-2026-008",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      },
+      {
+        "id": "CYB-2026-028",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      },
+      {
+        "id": "CYB-2026-045",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      }
+    ]
+  },
+  {
+    "ip": "8.8.8.8",
+    "reputation": "medium",
+    "reputationScore": 44,
+    "geolocation": {
+      "city": "Shivamogga",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.8,
+      "lng": 77.8
+    },
+    "network": {
+      "isp": "BSNL",
+      "asn": "AS9808",
+      "org": "BSNL Ltd",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 61,
+      "incidentCount": 1,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Cyber Fraud",
+        "Phishing"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-006",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      },
+      {
+        "id": "CYB-2026-009",
+        "type": "Cyber Fraud",
+        "target": "upi-refund.net"
+      },
+      {
+        "id": "CYB-2026-026",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      },
+      {
+        "id": "CYB-2026-029",
+        "type": "Cyber Fraud",
+        "target": "upi-refund.net"
+      }
+    ]
+  },
+  {
+    "ip": "1.1.1.1",
+    "reputation": "high",
+    "reputationScore": 47,
+    "geolocation": {
+      "city": "Davanagere",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.9,
+      "lng": 77.9
+    },
+    "network": {
+      "isp": "Airtel",
+      "asn": "AS9809",
+      "org": "Bharti Airtel",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 63,
+      "incidentCount": 2,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Identity Theft",
+        "Malware"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-010",
+        "type": "Identity Theft",
+        "target": "verify-bank.co"
+      },
+      {
+        "id": "CYB-2026-027",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      },
+      {
+        "id": "CYB-2026-030",
+        "type": "Identity Theft",
+        "target": "verify-bank.co"
+      },
+      {
+        "id": "CYB-2026-047",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      }
+    ]
+  },
+  {
+    "ip": "117.239.1.1",
+    "reputation": "medium",
+    "reputationScore": 50,
+    "geolocation": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13,
+      "lng": 78
+    },
+    "network": {
+      "isp": "Jio",
+      "asn": "AS9810",
+      "org": "Reliance Jio",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 65,
+      "incidentCount": 3,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Phishing",
+        "Ransomware"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-008",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      },
+      {
+        "id": "CYB-2026-011",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      },
+      {
+        "id": "CYB-2026-031",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      },
+      {
+        "id": "CYB-2026-048",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      }
+    ]
+  },
+  {
+    "ip": "49.207.10.20",
+    "reputation": "medium",
+    "reputationScore": 53,
+    "geolocation": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.1,
+      "lng": 78.1
+    },
+    "network": {
+      "isp": "ACT",
+      "asn": "AS9811",
+      "org": "ACT Fibernet",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 67,
+      "incidentCount": 4,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Malware",
+        "DDoS"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-009",
+        "type": "Cyber Fraud",
+        "target": "upi-refund.net"
+      },
+      {
+        "id": "CYB-2026-012",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      },
+      {
+        "id": "CYB-2026-029",
+        "type": "Cyber Fraud",
+        "target": "upi-refund.net"
+      },
+      {
+        "id": "CYB-2026-032",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      }
+    ]
+  },
+  {
+    "ip": "14.139.155.5",
+    "reputation": "high",
+    "reputationScore": 56,
+    "geolocation": {
+      "city": "Mysuru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.2,
+      "lng": 78.2
+    },
+    "network": {
+      "isp": "BSNL",
+      "asn": "AS9812",
+      "org": "BSNL Ltd",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 69,
+      "incidentCount": 5,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Ransomware",
+        "Data Breach"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-013",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      },
+      {
+        "id": "CYB-2026-030",
+        "type": "Identity Theft",
+        "target": "verify-bank.co"
+      },
+      {
+        "id": "CYB-2026-033",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      },
+      {
+        "id": "CYB-2026-050",
+        "type": "Identity Theft",
+        "target": "verify-bank.co"
+      }
+    ]
+  },
+  {
+    "ip": "59.144.12.45",
+    "reputation": "medium",
+    "reputationScore": 59,
+    "geolocation": {
+      "city": "Belagavi",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.3,
+      "lng": 78.3
+    },
+    "network": {
+      "isp": "Airtel",
+      "asn": "AS9813",
+      "org": "Bharti Airtel",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 71,
+      "incidentCount": 6,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "DDoS",
+        "Social Engineering"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-011",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      },
+      {
+        "id": "CYB-2026-014",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      },
+      {
+        "id": "CYB-2026-034",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      },
+      {
+        "id": "CYB-2026-051",
+        "type": "Phishing",
+        "target": "bank-secure-login.com"
+      }
+    ]
+  },
+  {
+    "ip": "122.166.10.9",
+    "reputation": "medium",
+    "reputationScore": 62,
+    "geolocation": {
+      "city": "Hubli-Dharwad",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.4,
+      "lng": 78.4
+    },
+    "network": {
+      "isp": "Jio",
+      "asn": "AS9814",
+      "org": "Reliance Jio",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 73,
+      "incidentCount": 7,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Data Breach",
+        "Insider Threat"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-012",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      },
+      {
+        "id": "CYB-2026-015",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      },
+      {
+        "id": "CYB-2026-032",
+        "type": "Malware",
+        "target": "sbi-verify.net"
+      },
+      {
+        "id": "CYB-2026-035",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      }
+    ]
+  },
+  {
+    "ip": "106.51.72.1",
+    "reputation": "high",
+    "reputationScore": 65,
+    "geolocation": {
+      "city": "Kalaburagi",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.5,
+      "lng": 78.5
+    },
+    "network": {
+      "isp": "ACT",
+      "asn": "AS9815",
+      "org": "ACT Fibernet",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 75,
+      "incidentCount": 8,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Social Engineering",
+        "Web Defacement"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-016",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      },
+      {
+        "id": "CYB-2026-033",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      },
+      {
+        "id": "CYB-2026-036",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      },
+      {
+        "id": "CYB-2026-053",
+        "type": "Ransomware",
+        "target": "corpdata.in"
+      }
+    ]
+  },
+  {
+    "ip": "202.88.174.6",
+    "reputation": "medium",
+    "reputationScore": 68,
+    "geolocation": {
+      "city": "Mangaluru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.6,
+      "lng": 78.6
+    },
+    "network": {
+      "isp": "BSNL",
+      "asn": "AS9816",
+      "org": "BSNL Ltd",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 77,
+      "incidentCount": 1,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Insider Threat",
+        "Cyber Fraud"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-014",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      },
+      {
+        "id": "CYB-2026-017",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      },
+      {
+        "id": "CYB-2026-037",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      },
+      {
+        "id": "CYB-2026-054",
+        "type": "DDoS",
+        "target": "ksp-alerts.net"
+      }
+    ]
+  },
+  {
+    "ip": "103.48.51.10",
+    "reputation": "medium",
+    "reputationScore": 71,
+    "geolocation": {
+      "city": "Tumakuru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.7,
+      "lng": 78.7
+    },
+    "network": {
+      "isp": "Airtel",
+      "asn": "AS9817",
+      "org": "Bharti Airtel",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 79,
+      "incidentCount": 2,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Web Defacement",
+        "Identity Theft"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-015",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      },
+      {
+        "id": "CYB-2026-018",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      },
+      {
+        "id": "CYB-2026-035",
+        "type": "Data Breach",
+        "target": "pay-kyc-update.in"
+      },
+      {
+        "id": "CYB-2026-038",
+        "type": "Web Defacement",
+        "target": "fake-dns.com"
+      }
+    ]
+  },
+  {
+    "ip": "157.240.16.35",
+    "reputation": "high",
+    "reputationScore": 74,
+    "geolocation": {
+      "city": "Shivamogga",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.8,
+      "lng": 78.8
+    },
+    "network": {
+      "isp": "Jio",
+      "asn": "AS9818",
+      "org": "Reliance Jio",
+      "type": "Broadband"
+    },
+    "threatData": {
+      "riskLevel": 81,
+      "incidentCount": 3,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Cyber Fraud",
+        "Phishing"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-019",
+        "type": "Cyber Fraud",
+        "target": "upi-refund.net"
+      },
+      {
+        "id": "CYB-2026-036",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      },
+      {
+        "id": "CYB-2026-039",
+        "type": "Cyber Fraud",
+        "target": "upi-refund.net"
+      },
+      {
+        "id": "CYB-2026-056",
+        "type": "Social Engineering",
+        "target": "loan-fast-app.com"
+      }
+    ]
+  },
+  {
+    "ip": "13.107.42.14",
+    "reputation": "medium",
+    "reputationScore": 77,
+    "geolocation": {
+      "city": "Davanagere",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.9,
+      "lng": 78.9
+    },
+    "network": {
+      "isp": "ACT",
+      "asn": "AS9819",
+      "org": "ACT Fibernet",
+      "type": "Mobile"
+    },
+    "threatData": {
+      "riskLevel": 83,
+      "incidentCount": 4,
+      "firstSeen": "2024-08-12",
+      "lastSeen": "2026-06-20",
+      "categories": [
+        "Identity Theft",
+        "Malware"
+      ]
+    },
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-017",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      },
+      {
+        "id": "CYB-2026-020",
+        "type": "Identity Theft",
+        "target": "verify-bank.co"
+      },
+      {
+        "id": "CYB-2026-040",
+        "type": "Identity Theft",
+        "target": "verify-bank.co"
+      },
+      {
+        "id": "CYB-2026-057",
+        "type": "Insider Threat",
+        "target": "secure-gov-login.in"
+      }
+    ]
+  }
+]

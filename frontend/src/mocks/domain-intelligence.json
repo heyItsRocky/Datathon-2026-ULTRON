@@ -1,0 +1,681 @@
+[
+  {
+    "domain": "bank-secure-login.com",
+    "threatScore": 55,
+    "riskLevel": "high",
+    "whois": {
+      "registrar": "Namecheap",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "192.168.1.100"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 50,
+    "categories": [
+      "Phishing",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-001",
+        "type": "Phishing"
+      },
+      {
+        "id": "CYB-2026-011",
+        "type": "Phishing"
+      },
+      {
+        "id": "CYB-2026-021",
+        "type": "Phishing"
+      },
+      {
+        "id": "CYB-2026-031",
+        "type": "Phishing"
+      }
+    ]
+  },
+  {
+    "domain": "sbi-verify.net",
+    "threatScore": 58,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "GoDaddy",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Privacy Protection",
+      "country": "IN"
+    },
+    "ssl": {
+      "valid": false,
+      "issuer": null,
+      "expiryDate": null
+    },
+    "dns": {
+      "aRecords": [
+        "10.0.0.55"
+      ],
+      "mxRecords": [
+        "mx.sbi-verify.net"
+      ],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 53,
+    "categories": [
+      "Malware",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-002",
+        "type": "Malware"
+      },
+      {
+        "id": "CYB-2026-010",
+        "type": "Identity Theft"
+      },
+      {
+        "id": "CYB-2026-012",
+        "type": "Malware"
+      },
+      {
+        "id": "CYB-2026-020",
+        "type": "Identity Theft"
+      }
+    ]
+  },
+  {
+    "domain": "corpdata.in",
+    "threatScore": 61,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "Unknown",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "203.0.113.50"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 56,
+    "categories": [
+      "Ransomware",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-003",
+        "type": "Ransomware"
+      },
+      {
+        "id": "CYB-2026-013",
+        "type": "Ransomware"
+      },
+      {
+        "id": "CYB-2026-023",
+        "type": "Ransomware"
+      },
+      {
+        "id": "CYB-2026-033",
+        "type": "Ransomware"
+      }
+    ]
+  },
+  {
+    "domain": "ksp-alerts.net",
+    "threatScore": 64,
+    "riskLevel": "high",
+    "whois": {
+      "registrar": "Namecheap",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Privacy Protection",
+      "country": "IN"
+    },
+    "ssl": {
+      "valid": false,
+      "issuer": null,
+      "expiryDate": null
+    },
+    "dns": {
+      "aRecords": [
+        "198.51.100.77"
+      ],
+      "mxRecords": [
+        "mx.ksp-alerts.net"
+      ],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 59,
+    "categories": [
+      "DDoS",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-002",
+        "type": "Malware"
+      },
+      {
+        "id": "CYB-2026-004",
+        "type": "DDoS"
+      },
+      {
+        "id": "CYB-2026-012",
+        "type": "Malware"
+      },
+      {
+        "id": "CYB-2026-014",
+        "type": "DDoS"
+      }
+    ]
+  },
+  {
+    "domain": "pay-kyc-update.in",
+    "threatScore": 67,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "GoDaddy",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "172.16.4.20"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 62,
+    "categories": [
+      "Data Breach",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-005",
+        "type": "Data Breach"
+      },
+      {
+        "id": "CYB-2026-015",
+        "type": "Data Breach"
+      },
+      {
+        "id": "CYB-2026-025",
+        "type": "Data Breach"
+      },
+      {
+        "id": "CYB-2026-035",
+        "type": "Data Breach"
+      }
+    ]
+  },
+  {
+    "domain": "loan-fast-app.com",
+    "threatScore": 70,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "Unknown",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Privacy Protection",
+      "country": "IN"
+    },
+    "ssl": {
+      "valid": false,
+      "issuer": null,
+      "expiryDate": null
+    },
+    "dns": {
+      "aRecords": [
+        "45.77.12.9"
+      ],
+      "mxRecords": [
+        "mx.loan-fast-app.com"
+      ],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 65,
+    "categories": [
+      "Social Engineering",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-004",
+        "type": "DDoS"
+      },
+      {
+        "id": "CYB-2026-006",
+        "type": "Social Engineering"
+      },
+      {
+        "id": "CYB-2026-014",
+        "type": "DDoS"
+      },
+      {
+        "id": "CYB-2026-016",
+        "type": "Social Engineering"
+      }
+    ]
+  },
+  {
+    "domain": "secure-gov-login.in",
+    "threatScore": 73,
+    "riskLevel": "high",
+    "whois": {
+      "registrar": "Namecheap",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "103.21.244.8"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 68,
+    "categories": [
+      "Insider Threat",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-007",
+        "type": "Insider Threat"
+      },
+      {
+        "id": "CYB-2026-017",
+        "type": "Insider Threat"
+      },
+      {
+        "id": "CYB-2026-027",
+        "type": "Insider Threat"
+      },
+      {
+        "id": "CYB-2026-037",
+        "type": "Insider Threat"
+      }
+    ]
+  },
+  {
+    "domain": "fake-dns.com",
+    "threatScore": 76,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "GoDaddy",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Privacy Protection",
+      "country": "IN"
+    },
+    "ssl": {
+      "valid": false,
+      "issuer": null,
+      "expiryDate": null
+    },
+    "dns": {
+      "aRecords": [
+        "185.199.108.1"
+      ],
+      "mxRecords": [
+        "mx.fake-dns.com"
+      ],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 71,
+    "categories": [
+      "Web Defacement",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-006",
+        "type": "Social Engineering"
+      },
+      {
+        "id": "CYB-2026-008",
+        "type": "Web Defacement"
+      },
+      {
+        "id": "CYB-2026-016",
+        "type": "Social Engineering"
+      },
+      {
+        "id": "CYB-2026-018",
+        "type": "Web Defacement"
+      }
+    ]
+  },
+  {
+    "domain": "upi-refund.net",
+    "threatScore": 79,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "Unknown",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "8.8.8.8"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 74,
+    "categories": [
+      "Cyber Fraud",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-009",
+        "type": "Cyber Fraud"
+      },
+      {
+        "id": "CYB-2026-019",
+        "type": "Cyber Fraud"
+      },
+      {
+        "id": "CYB-2026-029",
+        "type": "Cyber Fraud"
+      },
+      {
+        "id": "CYB-2026-039",
+        "type": "Cyber Fraud"
+      }
+    ]
+  },
+  {
+    "domain": "verify-bank.co",
+    "threatScore": 82,
+    "riskLevel": "high",
+    "whois": {
+      "registrar": "Namecheap",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Privacy Protection",
+      "country": "IN"
+    },
+    "ssl": {
+      "valid": false,
+      "issuer": null,
+      "expiryDate": null
+    },
+    "dns": {
+      "aRecords": [
+        "1.1.1.1"
+      ],
+      "mxRecords": [
+        "mx.verify-bank.co"
+      ],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 77,
+    "categories": [
+      "Identity Theft",
+      "Suspicious"
+    ],
+    "associatedIncidents": [
+      {
+        "id": "CYB-2026-008",
+        "type": "Web Defacement"
+      },
+      {
+        "id": "CYB-2026-010",
+        "type": "Identity Theft"
+      },
+      {
+        "id": "CYB-2026-018",
+        "type": "Web Defacement"
+      },
+      {
+        "id": "CYB-2026-020",
+        "type": "Identity Theft"
+      }
+    ]
+  },
+  {
+    "domain": "malware-c2.net",
+    "threatScore": 85,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "GoDaddy",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "117.239.1.1"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 80,
+    "categories": [
+      "Phishing",
+      "Suspicious"
+    ],
+    "associatedIncidents": []
+  },
+  {
+    "domain": "gov-login-fake.in",
+    "threatScore": 88,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "Unknown",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Privacy Protection",
+      "country": "IN"
+    },
+    "ssl": {
+      "valid": false,
+      "issuer": null,
+      "expiryDate": null
+    },
+    "dns": {
+      "aRecords": [
+        "49.207.10.20"
+      ],
+      "mxRecords": [
+        "mx.gov-login-fake.in"
+      ],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 83,
+    "categories": [
+      "Malware",
+      "Suspicious"
+    ],
+    "associatedIncidents": []
+  },
+  {
+    "domain": "tax-refund.co",
+    "threatScore": 91,
+    "riskLevel": "high",
+    "whois": {
+      "registrar": "Namecheap",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "14.139.155.5"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 86,
+    "categories": [
+      "Ransomware",
+      "Suspicious"
+    ],
+    "associatedIncidents": []
+  },
+  {
+    "domain": "karnataka-helpdesk.net",
+    "threatScore": 94,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "GoDaddy",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Privacy Protection",
+      "country": "IN"
+    },
+    "ssl": {
+      "valid": false,
+      "issuer": null,
+      "expiryDate": null
+    },
+    "dns": {
+      "aRecords": [
+        "59.144.12.45"
+      ],
+      "mxRecords": [
+        "mx.karnataka-helpdesk.net"
+      ],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 89,
+    "categories": [
+      "DDoS",
+      "Suspicious"
+    ],
+    "associatedIncidents": []
+  },
+  {
+    "domain": "parcel-verify.in",
+    "threatScore": 97,
+    "riskLevel": "medium",
+    "whois": {
+      "registrar": "Unknown",
+      "creationDate": "2026-05-01",
+      "expirationDate": "2027-05-01",
+      "organization": "Unknown Org",
+      "country": "IS"
+    },
+    "ssl": {
+      "valid": true,
+      "issuer": "LetsEncrypt",
+      "expiryDate": "2026-12-01"
+    },
+    "dns": {
+      "aRecords": [
+        "122.166.10.9"
+      ],
+      "mxRecords": [],
+      "nsRecords": [
+        "ns1.fake-dns.com",
+        "ns2.fake-dns.com"
+      ]
+    },
+    "phishingProbability": 92,
+    "categories": [
+      "Data Breach",
+      "Suspicious"
+    ],
+    "associatedIncidents": []
+  }
+]

@@ -1,0 +1,7 @@
+import type { ReportDTO } from '@/shared/api/dto-adapters/admin-adapters';
+import { Badge, Button } from '@/shared/ui-kit';
+import { formatDate, statusVariant } from './helpers';
+
+export function ReportList({ reports, onGenerate, onDownload }: { reports: ReportDTO[]; onGenerate: (type: string) => void; onDownload: (id: string) => void }) {
+  return <section className="glass-card rounded-[var(--radius-2xl)] p-4"><div className="mb-4 flex items-center justify-between gap-3"><h2 className="text-xl font-bold">Generated Reports</h2><Button size="sm" variant="secondary" onClick={() => onGenerate('Full Intelligence Report')}>Quick Generate</Button></div><div className="overflow-x-auto"><table className="w-full min-w-[820px] text-left text-sm"><thead className="text-[var(--color-text-muted)]"><tr><th className="py-3">Title</th><th>Type</th><th>Format</th><th>Date Range</th><th>Generated</th><th>Status</th><th>Size</th><th>Actions</th></tr></thead><tbody>{reports.map((report) => <tr key={report.id} className="border-t border-[var(--color-border)]"><td className="py-3 font-semibold">{report.title}</td><td>{report.type}</td><td className="uppercase">{report.format}</td><td>{report.dateRange.from} → {report.dateRange.to}</td><td>{formatDate(report.generatedAt)}</td><td><Badge variant={statusVariant(report.status)}>{report.status}</Badge></td><td>{report.size ?? '—'}</td><td><Button size="sm" variant="secondary" disabled={report.status !== 'completed'} onClick={() => onDownload(report.id)}>Download</Button></td></tr>)}</tbody></table></div></section>;
+}

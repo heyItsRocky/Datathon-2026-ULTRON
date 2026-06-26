@@ -1,0 +1,2 @@
+import { useFilterStore } from '@/stores/filterStore';
+export function useCyberFilters(){ const filters=useFilterStore(s=>s.cyberFilters); const setCyberFilters=useFilterStore(s=>s.setCyberFilters); return {filters,setType:(type:string)=>setCyberFilters({type}),setSeverity:(severity:string)=>setCyberFilters({severity}),setStatus:(status:string)=>setCyberFilters({status}),setSearch:(search:string)=>setCyberFilters({search}),reset:()=>setCyberFilters({type:undefined,severity:undefined,status:undefined,search:undefined})}; }

@@ -1,0 +1,1121 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bengaluru Urban",
+        "id": "bengaluru-urban",
+        "crimeDensity": 87,
+        "riskLevel": "extreme"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.41,
+              12.790000000000001
+            ],
+            [
+              77.77000000000001,
+              12.790000000000001
+            ],
+            [
+              77.77000000000001,
+              13.15
+            ],
+            [
+              77.41,
+              13.15
+            ],
+            [
+              77.41,
+              12.790000000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bengaluru Rural",
+        "id": "bengaluru-rural",
+        "crimeDensity": 84,
+        "riskLevel": "extreme"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5,
+              13.03
+            ],
+            [
+              77.91999999999999,
+              13.03
+            ],
+            [
+              77.91999999999999,
+              13.450000000000001
+            ],
+            [
+              77.5,
+              13.450000000000001
+            ],
+            [
+              77.5,
+              13.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mysuru",
+        "id": "mysuru",
+        "crimeDensity": 81,
+        "riskLevel": "extreme"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.41000000000001,
+              12.06
+            ],
+            [
+              76.89,
+              12.06
+            ],
+            [
+              76.89,
+              12.540000000000001
+            ],
+            [
+              76.41000000000001,
+              12.540000000000001
+            ],
+            [
+              76.41000000000001,
+              12.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belagavi",
+        "id": "belagavi",
+        "crimeDensity": 78,
+        "riskLevel": "high"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.23,
+              15.58
+            ],
+            [
+              74.77,
+              15.58
+            ],
+            [
+              74.77,
+              16.12
+            ],
+            [
+              74.23,
+              16.12
+            ],
+            [
+              74.23,
+              15.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hubli-Dharwad",
+        "id": "hubli-dharwad",
+        "crimeDensity": 75,
+        "riskLevel": "high"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.94,
+              15.18
+            ],
+            [
+              75.30000000000001,
+              15.18
+            ],
+            [
+              75.30000000000001,
+              15.54
+            ],
+            [
+              74.94,
+              15.54
+            ],
+            [
+              74.94,
+              15.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalaburagi",
+        "id": "kalaburagi",
+        "crimeDensity": 72,
+        "riskLevel": "high"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.62,
+              17.119999999999997
+            ],
+            [
+              77.03999999999999,
+              17.119999999999997
+            ],
+            [
+              77.03999999999999,
+              17.54
+            ],
+            [
+              76.62,
+              17.54
+            ],
+            [
+              76.62,
+              17.119999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangaluru",
+        "id": "mangaluru",
+        "crimeDensity": 69,
+        "riskLevel": "high"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.61,
+              12.67
+            ],
+            [
+              75.08999999999999,
+              12.67
+            ],
+            [
+              75.08999999999999,
+              13.15
+            ],
+            [
+              74.61,
+              13.15
+            ],
+            [
+              74.61,
+              12.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tumakuru",
+        "id": "tumakuru",
+        "crimeDensity": 66,
+        "riskLevel": "high"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.83,
+              13.07
+            ],
+            [
+              77.36999999999999,
+              13.07
+            ],
+            [
+              77.36999999999999,
+              13.61
+            ],
+            [
+              76.83,
+              13.61
+            ],
+            [
+              76.83,
+              13.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shivamogga",
+        "id": "shivamogga",
+        "crimeDensity": 63,
+        "riskLevel": "high"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.38999999999999,
+              13.75
+            ],
+            [
+              75.75,
+              13.75
+            ],
+            [
+              75.75,
+              14.11
+            ],
+            [
+              75.38999999999999,
+              14.11
+            ],
+            [
+              75.38999999999999,
+              13.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Davanagere",
+        "id": "davanagere",
+        "crimeDensity": 60,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.71000000000001,
+              14.25
+            ],
+            [
+              76.13,
+              14.25
+            ],
+            [
+              76.13,
+              14.670000000000002
+            ],
+            [
+              75.71000000000001,
+              14.670000000000002
+            ],
+            [
+              75.71000000000001,
+              14.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Udupi",
+        "id": "udupi",
+        "crimeDensity": 57,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.51,
+              13.1
+            ],
+            [
+              74.99,
+              13.1
+            ],
+            [
+              74.99,
+              13.58
+            ],
+            [
+              74.51,
+              13.58
+            ],
+            [
+              74.51,
+              13.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dakshina Kannada",
+        "id": "dakshina-kannada",
+        "crimeDensity": 54,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.98,
+              12.57
+            ],
+            [
+              75.52,
+              12.57
+            ],
+            [
+              75.52,
+              13.11
+            ],
+            [
+              74.98,
+              13.11
+            ],
+            [
+              74.98,
+              12.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uttara Kannada",
+        "id": "uttara-kannada",
+        "crimeDensity": 51,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.94999999999999,
+              14.64
+            ],
+            [
+              74.31,
+              14.64
+            ],
+            [
+              74.31,
+              15
+            ],
+            [
+              73.94999999999999,
+              15
+            ],
+            [
+              73.94999999999999,
+              14.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chikkamagaluru",
+        "id": "chikkamagaluru",
+        "crimeDensity": 48,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.56,
+              13.11
+            ],
+            [
+              75.97999999999999,
+              13.11
+            ],
+            [
+              75.97999999999999,
+              13.530000000000001
+            ],
+            [
+              75.56,
+              13.530000000000001
+            ],
+            [
+              75.56,
+              13.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hassan",
+        "id": "hassan",
+        "crimeDensity": 45,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.86,
+              12.77
+            ],
+            [
+              76.33999999999999,
+              12.77
+            ],
+            [
+              76.33999999999999,
+              13.25
+            ],
+            [
+              75.86,
+              13.25
+            ],
+            [
+              75.86,
+              12.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kodagu",
+        "id": "kodagu",
+        "crimeDensity": 42,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.47,
+              12.15
+            ],
+            [
+              76.00999999999999,
+              12.15
+            ],
+            [
+              76.00999999999999,
+              12.69
+            ],
+            [
+              75.47,
+              12.69
+            ],
+            [
+              75.47,
+              12.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandya",
+        "id": "mandya",
+        "crimeDensity": 39,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.72,
+              12.34
+            ],
+            [
+              77.08000000000001,
+              12.34
+            ],
+            [
+              77.08000000000001,
+              12.7
+            ],
+            [
+              76.72,
+              12.7
+            ],
+            [
+              76.72,
+              12.34
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chamarajanagar",
+        "id": "chamarajanagar",
+        "crimeDensity": 36,
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.74000000000001,
+              11.709999999999999
+            ],
+            [
+              77.16,
+              11.709999999999999
+            ],
+            [
+              77.16,
+              12.13
+            ],
+            [
+              76.74000000000001,
+              12.13
+            ],
+            [
+              76.74000000000001,
+              11.709999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramanagara",
+        "id": "ramanagara",
+        "crimeDensity": 33,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.04,
+              12.48
+            ],
+            [
+              77.52,
+              12.48
+            ],
+            [
+              77.52,
+              12.96
+            ],
+            [
+              77.04,
+              12.96
+            ],
+            [
+              77.04,
+              12.48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kolar",
+        "id": "kolar",
+        "crimeDensity": 30,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.86,
+              12.870000000000001
+            ],
+            [
+              78.39999999999999,
+              12.870000000000001
+            ],
+            [
+              78.39999999999999,
+              13.41
+            ],
+            [
+              77.86,
+              13.41
+            ],
+            [
+              77.86,
+              12.870000000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chikkaballapur",
+        "id": "chikkaballapur",
+        "crimeDensity": 27,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.55,
+              13.25
+            ],
+            [
+              77.91000000000001,
+              13.25
+            ],
+            [
+              77.91000000000001,
+              13.61
+            ],
+            [
+              77.55,
+              13.61
+            ],
+            [
+              77.55,
+              13.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ballari",
+        "id": "ballari",
+        "crimeDensity": 24,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.71000000000001,
+              14.93
+            ],
+            [
+              77.13,
+              14.93
+            ],
+            [
+              77.13,
+              15.350000000000001
+            ],
+            [
+              76.71000000000001,
+              15.350000000000001
+            ],
+            [
+              76.71000000000001,
+              14.93
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vijayanagara",
+        "id": "vijayanagara",
+        "crimeDensity": 21,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.91000000000001,
+              15.11
+            ],
+            [
+              76.39,
+              15.11
+            ],
+            [
+              76.39,
+              15.59
+            ],
+            [
+              75.91000000000001,
+              15.59
+            ],
+            [
+              75.91000000000001,
+              15.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vijapura",
+        "id": "vijapura",
+        "crimeDensity": 18,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.44,
+              16.56
+            ],
+            [
+              75.97999999999999,
+              16.56
+            ],
+            [
+              75.97999999999999,
+              17.099999999999998
+            ],
+            [
+              75.44,
+              17.099999999999998
+            ],
+            [
+              75.44,
+              16.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bagalkote",
+        "id": "bagalkote",
+        "crimeDensity": 15,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.52,
+              16
+            ],
+            [
+              75.88000000000001,
+              16
+            ],
+            [
+              75.88000000000001,
+              16.36
+            ],
+            [
+              75.52,
+              16.36
+            ],
+            [
+              75.52,
+              16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gadag",
+        "id": "gadag",
+        "crimeDensity": 12,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.42,
+              15.219999999999999
+            ],
+            [
+              75.83999999999999,
+              15.219999999999999
+            ],
+            [
+              75.83999999999999,
+              15.64
+            ],
+            [
+              75.42,
+              15.64
+            ],
+            [
+              75.42,
+              15.219999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haveri",
+        "id": "haveri",
+        "crimeDensity": 9,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.16000000000001,
+              14.56
+            ],
+            [
+              75.64,
+              14.56
+            ],
+            [
+              75.64,
+              15.040000000000001
+            ],
+            [
+              75.16000000000001,
+              15.040000000000001
+            ],
+            [
+              75.16000000000001,
+              14.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Koppal",
+        "id": "koppal",
+        "crimeDensity": 6,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.88000000000001,
+              15.08
+            ],
+            [
+              76.42,
+              15.08
+            ],
+            [
+              76.42,
+              15.62
+            ],
+            [
+              75.88000000000001,
+              15.62
+            ],
+            [
+              75.88000000000001,
+              15.08
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raichur",
+        "id": "raichur",
+        "crimeDensity": 3,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.17999999999999,
+              16.02
+            ],
+            [
+              77.54,
+              16.02
+            ],
+            [
+              77.54,
+              16.38
+            ],
+            [
+              77.17999999999999,
+              16.38
+            ],
+            [
+              77.17999999999999,
+              16.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yadgiri",
+        "id": "yadgiri",
+        "crimeDensity": 0,
+        "riskLevel": "low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.93,
+              16.55
+            ],
+            [
+              77.35,
+              16.55
+            ],
+            [
+              77.35,
+              16.970000000000002
+            ],
+            [
+              76.93,
+              16.970000000000002
+            ],
+            [
+              76.93,
+              16.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bidar",
+        "id": "bidar",
+        "crimeDensity": 97,
+        "riskLevel": "extreme"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28,
+              17.67
+            ],
+            [
+              77.75999999999999,
+              17.67
+            ],
+            [
+              77.75999999999999,
+              18.15
+            ],
+            [
+              77.28,
+              18.15
+            ],
+            [
+              77.28,
+              17.67
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

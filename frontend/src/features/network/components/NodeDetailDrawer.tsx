@@ -1,0 +1,3 @@
+import type { GraphElement } from '@/shared/api/dto-adapters/network';
+import { Drawer, Button } from '@/shared/ui-kit';
+export function NodeDetailDrawer({open,node,onClose}:{open:boolean;node:GraphElement|null;onClose:()=>void}){return <Drawer open={open} onOpenChange={v=>{if(!v)onClose()}} title={node?.data.label??'Node'}>{node?<div className="space-y-3 text-sm"><p><b>ID:</b> {node.data.id}</p><p><b>Type:</b> {node.data.type}</p>{Object.entries(node.data).map(([k,v])=>!['id','label','type','color'].includes(k)?<p key={k}><b>{k}:</b> {String(v)}</p>:null)}<div className="grid gap-2 pt-4"><Button variant="secondary">View Profile →</Button><Button variant="secondary">View Cases →</Button><Button variant="secondary">Jump to Map →</Button></div></div>:null}</Drawer>}

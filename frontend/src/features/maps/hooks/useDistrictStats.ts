@@ -1,0 +1,1 @@
+import { useQuery } from '@tanstack/react-query'; import { fetchDistrictStats } from '../api/mapsApi'; export function useDistrictStats(id:string){return useQuery({queryKey:['district-stats',id],queryFn:()=>fetchDistrictStats(id),enabled:!!id})}

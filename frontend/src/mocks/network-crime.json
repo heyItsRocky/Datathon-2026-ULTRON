@@ -1,0 +1,3568 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "CR-001",
+          "label": "Ravi Kumar 1",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 26,
+          "priors": 1,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-002",
+          "label": "Nadeem Pasha 2",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 27,
+          "priors": 2,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-003",
+          "label": "Mahadev Jadhav 3",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 28,
+          "priors": 3,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-004",
+          "label": "Sanjay Hegde 4",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 29,
+          "priors": 4,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-005",
+          "label": "Vishal Patil 5",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 30,
+          "priors": 5,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-006",
+          "label": "Imran Shaikh 6",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 31,
+          "priors": 6,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-007",
+          "label": "Karthik Naik 7",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 32,
+          "priors": 7,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-008",
+          "label": "Arbaaz Khan 8",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 33,
+          "priors": 8,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-009",
+          "label": "Rakesh Shetty 9",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 34,
+          "priors": 9,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-010",
+          "label": "Manoj R 10",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 35,
+          "priors": 10,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-011",
+          "label": "Pradeep Sagar 11",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 36,
+          "priors": 11,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-012",
+          "label": "Raju Lamani 12",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 37,
+          "priors": 12,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-013",
+          "label": "Sameer Ali 13",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 38,
+          "priors": 0,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-014",
+          "label": "Mallesh Gowda 14",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 39,
+          "priors": 1,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-015",
+          "label": "Yusuf Mulla 15",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 40,
+          "priors": 2,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-016",
+          "label": "Deepak Nayak 16",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 41,
+          "priors": 3,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-017",
+          "label": "Nitin Rao 17",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 42,
+          "priors": 4,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-018",
+          "label": "Siddappa K 18",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 43,
+          "priors": 5,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-019",
+          "label": "Akram Bary 19",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 44,
+          "priors": 6,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-020",
+          "label": "Faizal Rahman 20",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 45,
+          "priors": 7,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-021",
+          "label": "Ravi Kumar 21",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 46,
+          "priors": 8,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-022",
+          "label": "Nadeem Pasha 22",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 47,
+          "priors": 9,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-023",
+          "label": "Mahadev Jadhav 23",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 48,
+          "priors": 10,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-024",
+          "label": "Sanjay Hegde 24",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 49,
+          "priors": 11,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-025",
+          "label": "Vishal Patil 25",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 50,
+          "priors": 12,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-026",
+          "label": "Imran Shaikh 26",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 51,
+          "priors": 0,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-027",
+          "label": "Karthik Naik 27",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 52,
+          "priors": 1,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-028",
+          "label": "Arbaaz Khan 28",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 53,
+          "priors": 2,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-029",
+          "label": "Rakesh Shetty 29",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 54,
+          "priors": 3,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-030",
+          "label": "Manoj R 30",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 55,
+          "priors": 4,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-031",
+          "label": "Pradeep Sagar 31",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 56,
+          "priors": 5,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-032",
+          "label": "Raju Lamani 32",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 57,
+          "priors": 6,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-033",
+          "label": "Sameer Ali 33",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 58,
+          "priors": 7,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-034",
+          "label": "Mallesh Gowda 34",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 59,
+          "priors": 8,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-035",
+          "label": "Yusuf Mulla 35",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 60,
+          "priors": 9,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-036",
+          "label": "Deepak Nayak 36",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 61,
+          "priors": 10,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-037",
+          "label": "Nitin Rao 37",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 62,
+          "priors": 11,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-038",
+          "label": "Siddappa K 38",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 63,
+          "priors": 12,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-039",
+          "label": "Akram Bary 39",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 64,
+          "priors": 0,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-040",
+          "label": "Faizal Rahman 40",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 65,
+          "priors": 1,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-041",
+          "label": "Ravi Kumar 41",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 66,
+          "priors": 2,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-042",
+          "label": "Nadeem Pasha 42",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 67,
+          "priors": 3,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-043",
+          "label": "Mahadev Jadhav 43",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 68,
+          "priors": 4,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-044",
+          "label": "Sanjay Hegde 44",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 69,
+          "priors": 5,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-045",
+          "label": "Vishal Patil 45",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 70,
+          "priors": 6,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-046",
+          "label": "Imran Shaikh 46",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 71,
+          "priors": 7,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-047",
+          "label": "Karthik Naik 47",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 72,
+          "priors": 8,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-048",
+          "label": "Arbaaz Khan 48",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 73,
+          "priors": 9,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-049",
+          "label": "Rakesh Shetty 49",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 74,
+          "priors": 10,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-050",
+          "label": "Manoj R 50",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 75,
+          "priors": 11,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-051",
+          "label": "Pradeep Sagar 51",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 76,
+          "priors": 12,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-052",
+          "label": "Raju Lamani 52",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 77,
+          "priors": 0,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-053",
+          "label": "Sameer Ali 53",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 78,
+          "priors": 1,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-054",
+          "label": "Mallesh Gowda 54",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 79,
+          "priors": 2,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-055",
+          "label": "Yusuf Mulla 55",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 80,
+          "priors": 3,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-001",
+          "label": "Victim 1",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-002",
+          "label": "Victim 2",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-003",
+          "label": "Victim 3",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-004",
+          "label": "Victim 4",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-005",
+          "label": "Victim 5",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-006",
+          "label": "Victim 6",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-007",
+          "label": "Victim 7",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-008",
+          "label": "Victim 8",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-009",
+          "label": "Victim 9",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-010",
+          "label": "Victim 10",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-011",
+          "label": "Victim 11",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-012",
+          "label": "Victim 12",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-013",
+          "label": "Victim 13",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-014",
+          "label": "Victim 14",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-015",
+          "label": "Victim 15",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-016",
+          "label": "Victim 16",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-017",
+          "label": "Victim 17",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-018",
+          "label": "Victim 18",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-019",
+          "label": "Victim 19",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-020",
+          "label": "Victim 20",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-021",
+          "label": "Victim 21",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-022",
+          "label": "Victim 22",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-023",
+          "label": "Victim 23",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-024",
+          "label": "Victim 24",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-025",
+          "label": "Victim 25",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-026",
+          "label": "Victim 26",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-027",
+          "label": "Victim 27",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-028",
+          "label": "Victim 28",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-029",
+          "label": "Victim 29",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-030",
+          "label": "Victim 30",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-031",
+          "label": "Victim 31",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-032",
+          "label": "Victim 32",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-033",
+          "label": "Victim 33",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-034",
+          "label": "Victim 34",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "VIC-035",
+          "label": "Victim 35",
+          "type": "victim",
+          "color": "#3b82f6",
+          "victim": true
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-001",
+          "label": "KSP/2026/001",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Theft"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-002",
+          "label": "KSP/2026/002",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Assault"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-003",
+          "label": "KSP/2026/003",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Burglary"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-004",
+          "label": "KSP/2026/004",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Robbery"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-005",
+          "label": "KSP/2026/005",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Cyber Crime"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-006",
+          "label": "KSP/2026/006",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Chain Snatching"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-007",
+          "label": "KSP/2026/007",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Domestic Violence"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-008",
+          "label": "KSP/2026/008",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Murder"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-009",
+          "label": "KSP/2026/009",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Theft"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-010",
+          "label": "KSP/2026/010",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Assault"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-011",
+          "label": "KSP/2026/011",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Burglary"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-012",
+          "label": "KSP/2026/012",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Robbery"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-013",
+          "label": "KSP/2026/013",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Cyber Crime"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-014",
+          "label": "KSP/2026/014",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Chain Snatching"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-015",
+          "label": "KSP/2026/015",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Domestic Violence"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-016",
+          "label": "KSP/2026/016",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Murder"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-017",
+          "label": "KSP/2026/017",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Theft"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-018",
+          "label": "KSP/2026/018",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Assault"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-019",
+          "label": "KSP/2026/019",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Burglary"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-020",
+          "label": "KSP/2026/020",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Robbery"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-021",
+          "label": "KSP/2026/021",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Cyber Crime"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-022",
+          "label": "KSP/2026/022",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Chain Snatching"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-023",
+          "label": "KSP/2026/023",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Domestic Violence"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-024",
+          "label": "KSP/2026/024",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Murder"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-025",
+          "label": "KSP/2026/025",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Theft"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-026",
+          "label": "KSP/2026/026",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Assault"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-027",
+          "label": "KSP/2026/027",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Burglary"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-028",
+          "label": "KSP/2026/028",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Robbery"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-029",
+          "label": "KSP/2026/029",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Cyber Crime"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-030",
+          "label": "KSP/2026/030",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Chain Snatching"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-031",
+          "label": "KSP/2026/031",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Domestic Violence"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-032",
+          "label": "KSP/2026/032",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Murder"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-033",
+          "label": "KSP/2026/033",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Theft"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-034",
+          "label": "KSP/2026/034",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Assault"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-035",
+          "label": "KSP/2026/035",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Burglary"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-036",
+          "label": "KSP/2026/036",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Robbery"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-037",
+          "label": "KSP/2026/037",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Cyber Crime"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-038",
+          "label": "KSP/2026/038",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Chain Snatching"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-039",
+          "label": "KSP/2026/039",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Domestic Violence"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-040",
+          "label": "KSP/2026/040",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Murder"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-041",
+          "label": "KSP/2026/041",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Theft"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-042",
+          "label": "KSP/2026/042",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Assault"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-043",
+          "label": "KSP/2026/043",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Burglary"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-044",
+          "label": "KSP/2026/044",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Robbery"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-045",
+          "label": "KSP/2026/045",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Cyber Crime"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-046",
+          "label": "KSP/2026/046",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Chain Snatching"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-047",
+          "label": "KSP/2026/047",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Domestic Violence"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-048",
+          "label": "KSP/2026/048",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Murder"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-049",
+          "label": "KSP/2026/049",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Theft"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-050",
+          "label": "KSP/2026/050",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Assault"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-051",
+          "label": "KSP/2026/051",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Burglary"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-052",
+          "label": "KSP/2026/052",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Robbery"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-053",
+          "label": "KSP/2026/053",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Cyber Crime"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-054",
+          "label": "KSP/2026/054",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Chain Snatching"
+        }
+      },
+      {
+        "data": {
+          "id": "KSP-2026-055",
+          "label": "KSP/2026/055",
+          "type": "crime",
+          "color": "#f97316",
+          "crime": true,
+          "crimeType": "Domestic Violence"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "ce1",
+          "source": "CR-001",
+          "target": "KSP-2026-001",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce2",
+          "source": "VIC-002",
+          "target": "KSP-2026-001",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce3",
+          "source": "CR-009",
+          "target": "KSP-2026-001",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce4",
+          "source": "CR-001",
+          "target": "CR-005",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce5",
+          "source": "CR-002",
+          "target": "KSP-2026-002",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce6",
+          "source": "VIC-003",
+          "target": "KSP-2026-002",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce7",
+          "source": "CR-010",
+          "target": "KSP-2026-002",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce8",
+          "source": "CR-002",
+          "target": "CR-006",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce9",
+          "source": "CR-003",
+          "target": "KSP-2026-003",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce10",
+          "source": "VIC-004",
+          "target": "KSP-2026-003",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce11",
+          "source": "CR-011",
+          "target": "KSP-2026-003",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce12",
+          "source": "CR-003",
+          "target": "CR-007",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce13",
+          "source": "CR-004",
+          "target": "KSP-2026-004",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce14",
+          "source": "VIC-005",
+          "target": "KSP-2026-004",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce15",
+          "source": "CR-012",
+          "target": "KSP-2026-004",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce16",
+          "source": "CR-004",
+          "target": "CR-008",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce17",
+          "source": "CR-005",
+          "target": "KSP-2026-005",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce18",
+          "source": "VIC-006",
+          "target": "KSP-2026-005",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce19",
+          "source": "CR-013",
+          "target": "KSP-2026-005",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce20",
+          "source": "CR-005",
+          "target": "CR-009",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce21",
+          "source": "CR-006",
+          "target": "KSP-2026-006",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce22",
+          "source": "VIC-007",
+          "target": "KSP-2026-006",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce23",
+          "source": "CR-014",
+          "target": "KSP-2026-006",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce24",
+          "source": "CR-006",
+          "target": "CR-010",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce25",
+          "source": "CR-007",
+          "target": "KSP-2026-007",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce26",
+          "source": "VIC-008",
+          "target": "KSP-2026-007",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce27",
+          "source": "CR-015",
+          "target": "KSP-2026-007",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce28",
+          "source": "CR-007",
+          "target": "CR-011",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce29",
+          "source": "CR-008",
+          "target": "KSP-2026-008",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce30",
+          "source": "VIC-009",
+          "target": "KSP-2026-008",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce31",
+          "source": "CR-016",
+          "target": "KSP-2026-008",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce32",
+          "source": "CR-008",
+          "target": "CR-012",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce33",
+          "source": "CR-009",
+          "target": "KSP-2026-009",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce34",
+          "source": "VIC-010",
+          "target": "KSP-2026-009",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce35",
+          "source": "CR-017",
+          "target": "KSP-2026-009",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce36",
+          "source": "CR-009",
+          "target": "CR-013",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce37",
+          "source": "CR-010",
+          "target": "KSP-2026-010",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce38",
+          "source": "VIC-011",
+          "target": "KSP-2026-010",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce39",
+          "source": "CR-018",
+          "target": "KSP-2026-010",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce40",
+          "source": "CR-010",
+          "target": "CR-014",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce41",
+          "source": "CR-011",
+          "target": "KSP-2026-011",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce42",
+          "source": "VIC-012",
+          "target": "KSP-2026-011",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce43",
+          "source": "CR-019",
+          "target": "KSP-2026-011",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce44",
+          "source": "CR-011",
+          "target": "CR-015",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce45",
+          "source": "CR-012",
+          "target": "KSP-2026-012",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce46",
+          "source": "VIC-013",
+          "target": "KSP-2026-012",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce47",
+          "source": "CR-020",
+          "target": "KSP-2026-012",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce48",
+          "source": "CR-012",
+          "target": "CR-016",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce49",
+          "source": "CR-013",
+          "target": "KSP-2026-013",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce50",
+          "source": "VIC-014",
+          "target": "KSP-2026-013",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce51",
+          "source": "CR-021",
+          "target": "KSP-2026-013",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce52",
+          "source": "CR-013",
+          "target": "CR-017",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce53",
+          "source": "CR-014",
+          "target": "KSP-2026-014",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce54",
+          "source": "VIC-015",
+          "target": "KSP-2026-014",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce55",
+          "source": "CR-022",
+          "target": "KSP-2026-014",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce56",
+          "source": "CR-014",
+          "target": "CR-018",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce57",
+          "source": "CR-015",
+          "target": "KSP-2026-015",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce58",
+          "source": "VIC-016",
+          "target": "KSP-2026-015",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce59",
+          "source": "CR-023",
+          "target": "KSP-2026-015",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce60",
+          "source": "CR-015",
+          "target": "CR-019",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce61",
+          "source": "CR-016",
+          "target": "KSP-2026-016",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce62",
+          "source": "VIC-017",
+          "target": "KSP-2026-016",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce63",
+          "source": "CR-024",
+          "target": "KSP-2026-016",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce64",
+          "source": "CR-016",
+          "target": "CR-020",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce65",
+          "source": "CR-017",
+          "target": "KSP-2026-017",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce66",
+          "source": "VIC-018",
+          "target": "KSP-2026-017",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce67",
+          "source": "CR-025",
+          "target": "KSP-2026-017",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce68",
+          "source": "CR-017",
+          "target": "CR-021",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce69",
+          "source": "CR-018",
+          "target": "KSP-2026-018",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce70",
+          "source": "VIC-019",
+          "target": "KSP-2026-018",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce71",
+          "source": "CR-026",
+          "target": "KSP-2026-018",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce72",
+          "source": "CR-018",
+          "target": "CR-022",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce73",
+          "source": "CR-019",
+          "target": "KSP-2026-019",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce74",
+          "source": "VIC-020",
+          "target": "KSP-2026-019",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce75",
+          "source": "CR-027",
+          "target": "KSP-2026-019",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce76",
+          "source": "CR-019",
+          "target": "CR-023",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce77",
+          "source": "CR-020",
+          "target": "KSP-2026-020",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce78",
+          "source": "VIC-021",
+          "target": "KSP-2026-020",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce79",
+          "source": "CR-028",
+          "target": "KSP-2026-020",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce80",
+          "source": "CR-020",
+          "target": "CR-024",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce81",
+          "source": "CR-021",
+          "target": "KSP-2026-021",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce82",
+          "source": "VIC-022",
+          "target": "KSP-2026-021",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce83",
+          "source": "CR-029",
+          "target": "KSP-2026-021",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce84",
+          "source": "CR-021",
+          "target": "CR-025",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce85",
+          "source": "CR-022",
+          "target": "KSP-2026-022",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce86",
+          "source": "VIC-023",
+          "target": "KSP-2026-022",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce87",
+          "source": "CR-030",
+          "target": "KSP-2026-022",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce88",
+          "source": "CR-022",
+          "target": "CR-026",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce89",
+          "source": "CR-023",
+          "target": "KSP-2026-023",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce90",
+          "source": "VIC-024",
+          "target": "KSP-2026-023",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce91",
+          "source": "CR-031",
+          "target": "KSP-2026-023",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce92",
+          "source": "CR-023",
+          "target": "CR-027",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce93",
+          "source": "CR-024",
+          "target": "KSP-2026-024",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce94",
+          "source": "VIC-025",
+          "target": "KSP-2026-024",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce95",
+          "source": "CR-032",
+          "target": "KSP-2026-024",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce96",
+          "source": "CR-024",
+          "target": "CR-028",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce97",
+          "source": "CR-025",
+          "target": "KSP-2026-025",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce98",
+          "source": "VIC-026",
+          "target": "KSP-2026-025",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce99",
+          "source": "CR-033",
+          "target": "KSP-2026-025",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce100",
+          "source": "CR-025",
+          "target": "CR-029",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce101",
+          "source": "CR-026",
+          "target": "KSP-2026-026",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce102",
+          "source": "VIC-027",
+          "target": "KSP-2026-026",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce103",
+          "source": "CR-034",
+          "target": "KSP-2026-026",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce104",
+          "source": "CR-026",
+          "target": "CR-030",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce105",
+          "source": "CR-027",
+          "target": "KSP-2026-027",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce106",
+          "source": "VIC-028",
+          "target": "KSP-2026-027",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce107",
+          "source": "CR-035",
+          "target": "KSP-2026-027",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce108",
+          "source": "CR-027",
+          "target": "CR-031",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce109",
+          "source": "CR-028",
+          "target": "KSP-2026-028",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce110",
+          "source": "VIC-029",
+          "target": "KSP-2026-028",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce111",
+          "source": "CR-036",
+          "target": "KSP-2026-028",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce112",
+          "source": "CR-028",
+          "target": "CR-032",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce113",
+          "source": "CR-029",
+          "target": "KSP-2026-029",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce114",
+          "source": "VIC-030",
+          "target": "KSP-2026-029",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce115",
+          "source": "CR-037",
+          "target": "KSP-2026-029",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce116",
+          "source": "CR-029",
+          "target": "CR-033",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce117",
+          "source": "CR-030",
+          "target": "KSP-2026-030",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce118",
+          "source": "VIC-031",
+          "target": "KSP-2026-030",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce119",
+          "source": "CR-038",
+          "target": "KSP-2026-030",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce120",
+          "source": "CR-030",
+          "target": "CR-034",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce121",
+          "source": "CR-031",
+          "target": "KSP-2026-031",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce122",
+          "source": "VIC-032",
+          "target": "KSP-2026-031",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce123",
+          "source": "CR-039",
+          "target": "KSP-2026-031",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce124",
+          "source": "CR-031",
+          "target": "CR-035",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce125",
+          "source": "CR-032",
+          "target": "KSP-2026-032",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce126",
+          "source": "VIC-033",
+          "target": "KSP-2026-032",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce127",
+          "source": "CR-040",
+          "target": "KSP-2026-032",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce128",
+          "source": "CR-032",
+          "target": "CR-036",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce129",
+          "source": "CR-033",
+          "target": "KSP-2026-033",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce130",
+          "source": "VIC-034",
+          "target": "KSP-2026-033",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce131",
+          "source": "CR-041",
+          "target": "KSP-2026-033",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce132",
+          "source": "CR-033",
+          "target": "CR-037",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce133",
+          "source": "CR-034",
+          "target": "KSP-2026-034",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce134",
+          "source": "VIC-035",
+          "target": "KSP-2026-034",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce135",
+          "source": "CR-042",
+          "target": "KSP-2026-034",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce136",
+          "source": "CR-034",
+          "target": "CR-038",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce137",
+          "source": "CR-035",
+          "target": "KSP-2026-035",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce138",
+          "source": "VIC-001",
+          "target": "KSP-2026-035",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce139",
+          "source": "CR-043",
+          "target": "KSP-2026-035",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce140",
+          "source": "CR-035",
+          "target": "CR-039",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce141",
+          "source": "CR-036",
+          "target": "KSP-2026-036",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce142",
+          "source": "VIC-002",
+          "target": "KSP-2026-036",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce143",
+          "source": "CR-044",
+          "target": "KSP-2026-036",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce144",
+          "source": "CR-036",
+          "target": "CR-040",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce145",
+          "source": "CR-037",
+          "target": "KSP-2026-037",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce146",
+          "source": "VIC-003",
+          "target": "KSP-2026-037",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce147",
+          "source": "CR-045",
+          "target": "KSP-2026-037",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce148",
+          "source": "CR-037",
+          "target": "CR-041",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce149",
+          "source": "CR-038",
+          "target": "KSP-2026-038",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce150",
+          "source": "VIC-004",
+          "target": "KSP-2026-038",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce151",
+          "source": "CR-046",
+          "target": "KSP-2026-038",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce152",
+          "source": "CR-038",
+          "target": "CR-042",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce153",
+          "source": "CR-039",
+          "target": "KSP-2026-039",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce154",
+          "source": "VIC-005",
+          "target": "KSP-2026-039",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce155",
+          "source": "CR-047",
+          "target": "KSP-2026-039",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce156",
+          "source": "CR-039",
+          "target": "CR-043",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce157",
+          "source": "CR-040",
+          "target": "KSP-2026-040",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce158",
+          "source": "VIC-006",
+          "target": "KSP-2026-040",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce159",
+          "source": "CR-048",
+          "target": "KSP-2026-040",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce160",
+          "source": "CR-040",
+          "target": "CR-044",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce161",
+          "source": "CR-041",
+          "target": "KSP-2026-041",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce162",
+          "source": "VIC-007",
+          "target": "KSP-2026-041",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce163",
+          "source": "CR-049",
+          "target": "KSP-2026-041",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce164",
+          "source": "CR-041",
+          "target": "CR-045",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce165",
+          "source": "CR-042",
+          "target": "KSP-2026-042",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce166",
+          "source": "VIC-008",
+          "target": "KSP-2026-042",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce167",
+          "source": "CR-050",
+          "target": "KSP-2026-042",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce168",
+          "source": "CR-042",
+          "target": "CR-046",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce169",
+          "source": "CR-043",
+          "target": "KSP-2026-043",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce170",
+          "source": "VIC-009",
+          "target": "KSP-2026-043",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce171",
+          "source": "CR-051",
+          "target": "KSP-2026-043",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce172",
+          "source": "CR-043",
+          "target": "CR-047",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce173",
+          "source": "CR-044",
+          "target": "KSP-2026-044",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce174",
+          "source": "VIC-010",
+          "target": "KSP-2026-044",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce175",
+          "source": "CR-052",
+          "target": "KSP-2026-044",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce176",
+          "source": "CR-044",
+          "target": "CR-048",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce177",
+          "source": "CR-045",
+          "target": "KSP-2026-045",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce178",
+          "source": "VIC-011",
+          "target": "KSP-2026-045",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce179",
+          "source": "CR-053",
+          "target": "KSP-2026-045",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce180",
+          "source": "CR-045",
+          "target": "CR-049",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce181",
+          "source": "CR-046",
+          "target": "KSP-2026-046",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce182",
+          "source": "VIC-012",
+          "target": "KSP-2026-046",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce183",
+          "source": "CR-054",
+          "target": "KSP-2026-046",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce184",
+          "source": "CR-046",
+          "target": "CR-050",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce185",
+          "source": "CR-047",
+          "target": "KSP-2026-047",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce186",
+          "source": "VIC-013",
+          "target": "KSP-2026-047",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce187",
+          "source": "CR-055",
+          "target": "KSP-2026-047",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce188",
+          "source": "CR-047",
+          "target": "CR-051",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce189",
+          "source": "CR-048",
+          "target": "KSP-2026-048",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce190",
+          "source": "VIC-014",
+          "target": "KSP-2026-048",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce191",
+          "source": "CR-001",
+          "target": "KSP-2026-048",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce192",
+          "source": "CR-048",
+          "target": "CR-052",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce193",
+          "source": "CR-049",
+          "target": "KSP-2026-049",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce194",
+          "source": "VIC-015",
+          "target": "KSP-2026-049",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce195",
+          "source": "CR-002",
+          "target": "KSP-2026-049",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce196",
+          "source": "CR-049",
+          "target": "CR-053",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce197",
+          "source": "CR-050",
+          "target": "KSP-2026-050",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce198",
+          "source": "VIC-016",
+          "target": "KSP-2026-050",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce199",
+          "source": "CR-003",
+          "target": "KSP-2026-050",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce200",
+          "source": "CR-050",
+          "target": "CR-054",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce201",
+          "source": "CR-051",
+          "target": "KSP-2026-051",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce202",
+          "source": "VIC-017",
+          "target": "KSP-2026-051",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce203",
+          "source": "CR-004",
+          "target": "KSP-2026-051",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce204",
+          "source": "CR-051",
+          "target": "CR-055",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce205",
+          "source": "CR-052",
+          "target": "KSP-2026-052",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce206",
+          "source": "VIC-018",
+          "target": "KSP-2026-052",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce207",
+          "source": "CR-005",
+          "target": "KSP-2026-052",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce208",
+          "source": "CR-052",
+          "target": "CR-001",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce209",
+          "source": "CR-053",
+          "target": "KSP-2026-053",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce210",
+          "source": "VIC-019",
+          "target": "KSP-2026-053",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce211",
+          "source": "CR-006",
+          "target": "KSP-2026-053",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce212",
+          "source": "CR-053",
+          "target": "CR-002",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce213",
+          "source": "CR-054",
+          "target": "KSP-2026-054",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce214",
+          "source": "VIC-020",
+          "target": "KSP-2026-054",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce215",
+          "source": "CR-007",
+          "target": "KSP-2026-054",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce216",
+          "source": "CR-054",
+          "target": "CR-003",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      },
+      {
+        "data": {
+          "id": "ce217",
+          "source": "CR-055",
+          "target": "KSP-2026-055",
+          "label": "perpetrator",
+          "color": "#6b7280",
+          "moMatch": true
+        }
+      },
+      {
+        "data": {
+          "id": "ce218",
+          "source": "VIC-021",
+          "target": "KSP-2026-055",
+          "label": "victim_of",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce219",
+          "source": "CR-008",
+          "target": "KSP-2026-055",
+          "label": "associate",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "ce220",
+          "source": "CR-055",
+          "target": "CR-004",
+          "label": "associate",
+          "color": "#6b7280",
+          "moMatch": false
+        }
+      }
+    ]
+  }
+}

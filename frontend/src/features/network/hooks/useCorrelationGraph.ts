@@ -1,0 +1,1 @@
+import { useQuery } from '@tanstack/react-query'; import { fetchCorrelationGraph } from '../api/networkApi'; export function useCorrelationGraph(){return useQuery({queryKey:['correlation-graph'],queryFn:fetchCorrelationGraph})}

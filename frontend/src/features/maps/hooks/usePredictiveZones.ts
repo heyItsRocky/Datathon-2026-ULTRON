@@ -1,0 +1,1 @@
+import { useQuery } from '@tanstack/react-query'; import { fetchPredictiveZones } from '../api/mapsApi'; export function usePredictiveZones(){return useQuery({queryKey:['predictive-zones'],queryFn:fetchPredictiveZones})}

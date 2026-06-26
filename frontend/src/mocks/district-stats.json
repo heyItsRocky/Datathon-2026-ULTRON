@@ -1,0 +1,614 @@
+{
+  "bengaluru-urban": {
+    "totalCrimes": 12450,
+    "trend": 8,
+    "riskLevel": "extreme",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      320,
+      280,
+      410,
+      380,
+      450,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 85
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 72
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 12
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 8
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 91.2,
+      "povertyRate": 8.3,
+      "populationDensity": 12000,
+      "policeStations": 85
+    },
+    "lat": 12.97,
+    "lng": 77.59
+  },
+  "bengaluru-rural": {
+    "totalCrimes": 11830,
+    "trend": 7,
+    "riskLevel": "high",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      315,
+      280,
+      406,
+      380,
+      444,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 84
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 71
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 11
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 9
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 90.2,
+      "povertyRate": 9.3,
+      "populationDensity": 11500,
+      "policeStations": 82
+    },
+    "lat": 13.24,
+    "lng": 77.71
+  },
+  "mysuru": {
+    "totalCrimes": 11210,
+    "trend": 6,
+    "riskLevel": "high",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      310,
+      280,
+      402,
+      380,
+      438,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 83
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 70
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 10
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 8
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 89.2,
+      "povertyRate": 10.3,
+      "populationDensity": 11000,
+      "policeStations": 79
+    },
+    "lat": 12.3,
+    "lng": 76.65
+  },
+  "belagavi": {
+    "totalCrimes": 10590,
+    "trend": 5,
+    "riskLevel": "high",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      305,
+      280,
+      398,
+      380,
+      432,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 82
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 69
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 12
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 9
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 88.2,
+      "povertyRate": 11.3,
+      "populationDensity": 10500,
+      "policeStations": 76
+    },
+    "lat": 15.85,
+    "lng": 74.5
+  },
+  "hubli-dharwad": {
+    "totalCrimes": 9970,
+    "trend": 4,
+    "riskLevel": "high",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      300,
+      280,
+      394,
+      380,
+      426,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 81
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 68
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 11
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 8
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 87.2,
+      "povertyRate": 12.3,
+      "populationDensity": 10000,
+      "policeStations": 73
+    },
+    "lat": 15.36,
+    "lng": 75.12
+  },
+  "kalaburagi": {
+    "totalCrimes": 9350,
+    "trend": 8,
+    "riskLevel": "high",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      295,
+      280,
+      390,
+      380,
+      420,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 80
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 67
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 10
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 9
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 86.2,
+      "povertyRate": 13.3,
+      "populationDensity": 9500,
+      "policeStations": 70
+    },
+    "lat": 17.33,
+    "lng": 76.83
+  },
+  "mangaluru": {
+    "totalCrimes": 8730,
+    "trend": 7,
+    "riskLevel": "medium",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      290,
+      280,
+      386,
+      380,
+      414,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 79
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 66
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 12
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 8
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 85.2,
+      "povertyRate": 14.3,
+      "populationDensity": 9000,
+      "policeStations": 67
+    },
+    "lat": 12.91,
+    "lng": 74.85
+  },
+  "tumakuru": {
+    "totalCrimes": 8110,
+    "trend": 6,
+    "riskLevel": "medium",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      285,
+      280,
+      382,
+      380,
+      408,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 78
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 65
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 11
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 9
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 84.2,
+      "povertyRate": 15.3,
+      "populationDensity": 8500,
+      "policeStations": 64
+    },
+    "lat": 13.34,
+    "lng": 77.1
+  },
+  "shivamogga": {
+    "totalCrimes": 7490,
+    "trend": 5,
+    "riskLevel": "medium",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      280,
+      280,
+      378,
+      380,
+      402,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 77
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 64
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 10
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 8
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 83.2,
+      "povertyRate": 16.3,
+      "populationDensity": 8000,
+      "policeStations": 61
+    },
+    "lat": 13.93,
+    "lng": 75.57
+  },
+  "davanagere": {
+    "totalCrimes": 6870,
+    "trend": 4,
+    "riskLevel": "medium",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      275,
+      280,
+      374,
+      380,
+      396,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 76
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 63
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 12
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 9
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 82.2,
+      "povertyRate": 17.3,
+      "populationDensity": 7500,
+      "policeStations": 58
+    },
+    "lat": 14.46,
+    "lng": 75.92
+  },
+  "udupi": {
+    "totalCrimes": 6250,
+    "trend": 8,
+    "riskLevel": "medium",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      270,
+      280,
+      370,
+      380,
+      390,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 75
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 62
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 11
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 8
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 81.2,
+      "povertyRate": 18.3,
+      "populationDensity": 7000,
+      "policeStations": 55
+    },
+    "lat": 13.34,
+    "lng": 74.75
+  },
+  "dakshina-kannada": {
+    "totalCrimes": 5630,
+    "trend": 7,
+    "riskLevel": "medium",
+    "crimeBreakdown": {
+      "Theft": 34,
+      "Assault": 22,
+      "Burglary": 18,
+      "Cyber": 8,
+      "Murder": 5,
+      "Other": 13
+    },
+    "monthlyTrend": [
+      265,
+      280,
+      366,
+      380,
+      384,
+      390
+    ],
+    "topCriminals": [
+      {
+        "name": "Ravi Kumar",
+        "priors": 5,
+        "riskScore": 74
+      },
+      {
+        "name": "Venkatesh",
+        "priors": 3,
+        "riskScore": 61
+      }
+    ],
+    "moPatterns": [
+      {
+        "pattern": "Armed robbery at night",
+        "matches": 10
+      },
+      {
+        "pattern": "Chain snatching, daytime",
+        "matches": 9
+      }
+    ],
+    "socioEconomic": {
+      "literacy": 80.2,
+      "povertyRate": 19.3,
+      "populationDensity": 6500,
+      "policeStations": 52
+    },
+    "lat": 12.84,
+    "lng": 75.25
+  }
+}

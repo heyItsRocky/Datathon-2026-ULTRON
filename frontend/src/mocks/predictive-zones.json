@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PZ-001",
+    "districtId": "bengaluru-urban",
+    "district": "Bengaluru Urban",
+    "confidence": 91,
+    "riskLevel": "extreme",
+    "date": "2026-06-25"
+  },
+  {
+    "id": "PZ-002",
+    "districtId": "mysuru",
+    "district": "Mysuru",
+    "confidence": 78,
+    "riskLevel": "high",
+    "date": "2026-06-25"
+  },
+  {
+    "id": "PZ-003",
+    "districtId": "belagavi",
+    "district": "Belagavi",
+    "confidence": 72,
+    "riskLevel": "high",
+    "date": "2026-06-25"
+  }
+]

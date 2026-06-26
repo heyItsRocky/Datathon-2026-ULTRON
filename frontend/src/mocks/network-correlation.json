@@ -1,0 +1,548 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "CR-001",
+          "label": "Ravi Kumar 1",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 26,
+          "priors": 1,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-002",
+          "label": "Nadeem Pasha 2",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 27,
+          "priors": 2,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-003",
+          "label": "Mahadev Jadhav 3",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 28,
+          "priors": 3,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-004",
+          "label": "Sanjay Hegde 4",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 29,
+          "priors": 4,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-005",
+          "label": "Vishal Patil 5",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 30,
+          "priors": 5,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-006",
+          "label": "Imran Shaikh 6",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 31,
+          "priors": 6,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-007",
+          "label": "Karthik Naik 7",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 32,
+          "priors": 7,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-008",
+          "label": "Arbaaz Khan 8",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 33,
+          "priors": 8,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-009",
+          "label": "Rakesh Shetty 9",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 34,
+          "priors": 9,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-010",
+          "label": "Manoj R 10",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 35,
+          "priors": 10,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-011",
+          "label": "Pradeep Sagar 11",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 36,
+          "priors": 11,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-012",
+          "label": "Raju Lamani 12",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 37,
+          "priors": 12,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-013",
+          "label": "Sameer Ali 13",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 38,
+          "priors": 0,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-014",
+          "label": "Mallesh Gowda 14",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 39,
+          "priors": 1,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "CR-015",
+          "label": "Yusuf Mulla 15",
+          "type": "criminal",
+          "color": "#dc2626",
+          "riskScore": 40,
+          "priors": 2,
+          "criminal": true
+        }
+      },
+      {
+        "data": {
+          "id": "IP-0",
+          "label": "10.0.0.10",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.10",
+          "incidentCount": 1
+        }
+      },
+      {
+        "data": {
+          "id": "IP-1",
+          "label": "10.0.0.11",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.11",
+          "incidentCount": 2
+        }
+      },
+      {
+        "data": {
+          "id": "IP-2",
+          "label": "10.0.0.12",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.12",
+          "incidentCount": 3
+        }
+      },
+      {
+        "data": {
+          "id": "IP-3",
+          "label": "10.0.0.13",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.13",
+          "incidentCount": 4
+        }
+      },
+      {
+        "data": {
+          "id": "IP-4",
+          "label": "10.0.0.14",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.14",
+          "incidentCount": 5
+        }
+      },
+      {
+        "data": {
+          "id": "IP-5",
+          "label": "10.0.0.15",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.15",
+          "incidentCount": 6
+        }
+      },
+      {
+        "data": {
+          "id": "IP-6",
+          "label": "10.0.0.16",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.16",
+          "incidentCount": 7
+        }
+      },
+      {
+        "data": {
+          "id": "IP-7",
+          "label": "10.0.0.17",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.17",
+          "incidentCount": 8
+        }
+      },
+      {
+        "data": {
+          "id": "IP-8",
+          "label": "10.0.0.18",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.18",
+          "incidentCount": 9
+        }
+      },
+      {
+        "data": {
+          "id": "IP-9",
+          "label": "10.0.0.19",
+          "type": "ip",
+          "color": "#06b6d4",
+          "ip": "10.0.0.19",
+          "incidentCount": 10
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-0",
+          "label": "bank-secure-login0.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "bank-secure-login0.net",
+          "threatScore": 50
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-1",
+          "label": "sbi-verify1.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "sbi-verify1.net",
+          "threatScore": 52
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-2",
+          "label": "corpdata2.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "corpdata2.net",
+          "threatScore": 54
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-3",
+          "label": "ksp-alerts3.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "ksp-alerts3.net",
+          "threatScore": 56
+        }
+      },
+      {
+        "data": {
+          "id": "DOM-4",
+          "label": "upi-refund4.net",
+          "type": "domain",
+          "color": "#eab308",
+          "domain": "upi-refund4.net",
+          "threatScore": 58
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "xe1",
+          "source": "CR-001",
+          "target": "IP-0",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe2",
+          "source": "CR-002",
+          "target": "IP-1",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe3",
+          "source": "CR-003",
+          "target": "IP-2",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe4",
+          "source": "CR-004",
+          "target": "IP-3",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe5",
+          "source": "CR-005",
+          "target": "IP-4",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe6",
+          "source": "CR-006",
+          "target": "IP-5",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe7",
+          "source": "CR-007",
+          "target": "IP-6",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe8",
+          "source": "CR-008",
+          "target": "IP-7",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe9",
+          "source": "CR-009",
+          "target": "IP-8",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe10",
+          "source": "CR-010",
+          "target": "IP-9",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe11",
+          "source": "CR-011",
+          "target": "IP-0",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe12",
+          "source": "CR-012",
+          "target": "IP-1",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe13",
+          "source": "CR-013",
+          "target": "IP-2",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe14",
+          "source": "CR-014",
+          "target": "IP-3",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe15",
+          "source": "CR-015",
+          "target": "IP-4",
+          "label": "used_ip",
+          "color": "#f0b000"
+        }
+      },
+      {
+        "data": {
+          "id": "xe16",
+          "source": "IP-0",
+          "target": "DOM-0",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe17",
+          "source": "IP-1",
+          "target": "DOM-1",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe18",
+          "source": "IP-2",
+          "target": "DOM-2",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe19",
+          "source": "IP-3",
+          "target": "DOM-3",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe20",
+          "source": "IP-4",
+          "target": "DOM-4",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe21",
+          "source": "IP-5",
+          "target": "DOM-0",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe22",
+          "source": "IP-6",
+          "target": "DOM-1",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe23",
+          "source": "IP-7",
+          "target": "DOM-2",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe24",
+          "source": "IP-8",
+          "target": "DOM-3",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      },
+      {
+        "data": {
+          "id": "xe25",
+          "source": "IP-9",
+          "target": "DOM-4",
+          "label": "contacted",
+          "color": "#6b7280"
+        }
+      }
+    ]
+  }
+}

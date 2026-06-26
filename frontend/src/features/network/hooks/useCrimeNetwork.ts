@@ -1,0 +1,1 @@
+import { useQuery } from '@tanstack/react-query'; import { fetchCrimeNetwork } from '../api/networkApi'; export function useCrimeNetwork(){return useQuery({queryKey:['crime-network'],queryFn:fetchCrimeNetwork})}

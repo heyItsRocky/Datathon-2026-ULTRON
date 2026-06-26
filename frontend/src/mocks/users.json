@@ -1,0 +1,14 @@
+[
+  {"id":"USR-001","name":"Arjun Sharma","email":"arjun.sharma@ksp.gov.in","role":"admin","district":"Bengaluru Urban","lastLogin":"2026-06-25T08:30:00Z","status":"active","createdAt":"2025-01-15T00:00:00Z"},
+  {"id":"USR-002","name":"Meera Rao","email":"meera.rao@ksp.gov.in","role":"supervisor","district":"Mysuru","lastLogin":"2026-06-25T07:45:00Z","status":"active","createdAt":"2025-02-03T00:00:00Z"},
+  {"id":"USR-003","name":"Vikram Gowda","email":"vikram.gowda@ksp.gov.in","role":"analyst","district":"Belagavi","lastLogin":"2026-06-24T19:20:00Z","status":"active","createdAt":"2025-03-10T00:00:00Z"},
+  {"id":"USR-004","name":"Nisha Kulkarni","email":"nisha.kulkarni@ksp.gov.in","role":"viewer","district":"Mangaluru","lastLogin":"2026-06-22T11:10:00Z","status":"inactive","createdAt":"2025-04-12T00:00:00Z"},
+  {"id":"USR-005","name":"Raghavendra Patil","email":"raghavendra.patil@ksp.gov.in","role":"sudo","district":"Bengaluru Urban","lastLogin":"2026-06-25T09:05:00Z","status":"active","createdAt":"2024-12-01T00:00:00Z"},
+  {"id":"USR-006","name":"Farah Khan","email":"farah.khan@ksp.gov.in","role":"analyst","district":"Kalaburagi","lastLogin":"2026-06-23T15:35:00Z","status":"active","createdAt":"2025-05-07T00:00:00Z"},
+  {"id":"USR-007","name":"Pranav Hegde","email":"pranav.hegde@ksp.gov.in","role":"supervisor","district":"Hubli-Dharwad","lastLogin":"2026-06-25T06:50:00Z","status":"active","createdAt":"2025-01-28T00:00:00Z"},
+  {"id":"USR-008","name":"Lavanya Shetty","email":"lavanya.shetty@ksp.gov.in","role":"viewer","district":"Shivamogga","lastLogin":"2026-06-18T13:40:00Z","status":"suspended","createdAt":"2025-06-01T00:00:00Z"},
+  {"id":"USR-009","name":"Kiran Desai","email":"kiran.desai@ksp.gov.in","role":"analyst","district":"Tumakuru","lastLogin":"2026-06-24T17:25:00Z","status":"active","createdAt":"2025-02-21T00:00:00Z"},
+  {"id":"USR-010","name":"Anitha Ramesh","email":"anitha.ramesh@ksp.gov.in","role":"admin","district":"Davanagere","lastLogin":"2026-06-25T08:05:00Z","status":"active","createdAt":"2025-03-18T00:00:00Z"},
+  {"id":"USR-011","name":"Suresh Naik","email":"suresh.naik@ksp.gov.in","role":"viewer","district":"Bengaluru Rural","lastLogin":"2026-06-20T10:15:00Z","status":"inactive","createdAt":"2025-04-25T00:00:00Z"},
+  {"id":"USR-012","name":"Pooja Iyer","email":"pooja.iyer@ksp.gov.in","role":"analyst","district":"Bengaluru Urban","lastLogin":"2026-06-25T09:35:00Z","status":"active","createdAt":"2025-05-19T00:00:00Z"}
+]

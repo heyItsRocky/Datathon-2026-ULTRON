@@ -1,0 +1,287 @@
+[
+  {
+    "id": "HS-001",
+    "district": "Bengaluru Urban",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "radius": 1200,
+    "crimeCount": 234,
+    "topCrimeType": "Theft",
+    "crimeTypes": {
+      "Theft": 89,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "high",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-002",
+    "district": "Bengaluru Urban",
+    "latitude": 12.925,
+    "longitude": 77.59,
+    "radius": 1320,
+    "crimeCount": 225,
+    "topCrimeType": "Assault",
+    "crimeTypes": {
+      "Theft": 88,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "high",
+    "trend": -3,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-003",
+    "district": "Bengaluru Urban",
+    "latitude": 13.02,
+    "longitude": 77.62,
+    "radius": 1440,
+    "crimeCount": 216,
+    "topCrimeType": "Burglary",
+    "crimeTypes": {
+      "Theft": 87,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "high",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-004",
+    "district": "Bengaluru Urban",
+    "latitude": 12.98,
+    "longitude": 77.64,
+    "radius": 1560,
+    "crimeCount": 207,
+    "topCrimeType": "Robbery",
+    "crimeTypes": {
+      "Theft": 86,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "high",
+    "trend": -3,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-005",
+    "district": "Mysuru",
+    "latitude": 12.3,
+    "longitude": 76.65,
+    "radius": 1680,
+    "crimeCount": 198,
+    "topCrimeType": "Cyber",
+    "crimeTypes": {
+      "Theft": 85,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-006",
+    "district": "Mysuru",
+    "latitude": 12.33,
+    "longitude": 76.61,
+    "radius": 1800,
+    "crimeCount": 189,
+    "topCrimeType": "Theft",
+    "crimeTypes": {
+      "Theft": 84,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": -3,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-007",
+    "district": "Belagavi",
+    "latitude": 15.85,
+    "longitude": 74.5,
+    "radius": 1920,
+    "crimeCount": 180,
+    "topCrimeType": "Assault",
+    "crimeTypes": {
+      "Theft": 83,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "low",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-008",
+    "district": "Belagavi",
+    "latitude": 15.82,
+    "longitude": 74.52,
+    "radius": 2040,
+    "crimeCount": 171,
+    "topCrimeType": "Burglary",
+    "crimeTypes": {
+      "Theft": 82,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": -3,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-009",
+    "district": "Hubli-Dharwad",
+    "latitude": 15.36,
+    "longitude": 75.12,
+    "radius": 2160,
+    "crimeCount": 162,
+    "topCrimeType": "Robbery",
+    "crimeTypes": {
+      "Theft": 81,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-010",
+    "district": "Hubli-Dharwad",
+    "latitude": 15.45,
+    "longitude": 75,
+    "radius": 2280,
+    "crimeCount": 153,
+    "topCrimeType": "Cyber",
+    "crimeTypes": {
+      "Theft": 80,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "low",
+    "trend": -3,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-011",
+    "district": "Kalaburagi",
+    "latitude": 17.33,
+    "longitude": 76.83,
+    "radius": 2400,
+    "crimeCount": 144,
+    "topCrimeType": "Theft",
+    "crimeTypes": {
+      "Theft": 79,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-012",
+    "district": "Mangaluru",
+    "latitude": 12.91,
+    "longitude": 74.85,
+    "radius": 2520,
+    "crimeCount": 135,
+    "topCrimeType": "Assault",
+    "crimeTypes": {
+      "Theft": 78,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": -3,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-013",
+    "district": "Tumakuru",
+    "latitude": 13.34,
+    "longitude": 77.1,
+    "radius": 2640,
+    "crimeCount": 126,
+    "topCrimeType": "Burglary",
+    "crimeTypes": {
+      "Theft": 77,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "low",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-014",
+    "district": "Shivamogga",
+    "latitude": 13.93,
+    "longitude": 75.57,
+    "radius": 2760,
+    "crimeCount": 117,
+    "topCrimeType": "Robbery",
+    "crimeTypes": {
+      "Theft": 76,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": -3,
+    "peakTime": "22:00-02:00"
+  },
+  {
+    "id": "HS-015",
+    "district": "Davanagere",
+    "latitude": 14.46,
+    "longitude": 75.92,
+    "radius": 2880,
+    "crimeCount": 108,
+    "topCrimeType": "Cyber",
+    "crimeTypes": {
+      "Theft": 75,
+      "Assault": 56,
+      "Burglary": 45,
+      "Robbery": 24,
+      "Cyber": 20
+    },
+    "riskLevel": "medium",
+    "trend": 12,
+    "peakTime": "22:00-02:00"
+  }
+]

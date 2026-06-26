@@ -1,0 +1,10 @@
+[
+  {"id":"SVC-001","name":"Crime Intelligence API","type":"api","status":"healthy","latency":"45ms","uptime":"99.8%","lastChecked":"2026-06-25T10:00:00Z"},
+  {"id":"SVC-002","name":"Cyber SOC API","type":"api","status":"healthy","latency":"58ms","uptime":"99.7%","lastChecked":"2026-06-25T10:00:00Z"},
+  {"id":"SVC-003","name":"PostgreSQL Primary","type":"database","status":"healthy","latency":"12ms","uptime":"99.9%","lastChecked":"2026-06-25T10:00:00Z"},
+  {"id":"SVC-004","name":"Vector Search Index","type":"database","status":"degraded","latency":"180ms","uptime":"98.4%","lastChecked":"2026-06-25T10:00:00Z"},
+  {"id":"SVC-005","name":"Redis Cache","type":"cache","status":"healthy","latency":"7ms","uptime":"99.9%","lastChecked":"2026-06-25T10:00:00Z"},
+  {"id":"SVC-006","name":"Ingestion Queue","type":"queue","status":"degraded","latency":"320ms","uptime":"97.8%","lastChecked":"2026-06-25T10:00:00Z"},
+  {"id":"SVC-007","name":"Risk Scoring Model API","type":"ml-model","status":"healthy","latency":"96ms","uptime":"99.2%","lastChecked":"2026-06-25T10:00:00Z"},
+  {"id":"SVC-008","name":"Report Generator Worker","type":"queue","status":"down","latency":"timeout","uptime":"91.1%","lastChecked":"2026-06-25T10:00:00Z"}
+]

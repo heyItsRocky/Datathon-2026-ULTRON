@@ -1,0 +1,36 @@
+{
+  "kpis": [
+    { "title": "Total Crimes", "value": 12450, "trend": 8, "icon": "fingerprint" },
+    { "title": "Active Cases", "value": 234, "trend": -3, "icon": "briefcase" },
+    { "title": "Alerts Today", "value": 17, "trend": 12, "icon": "bell" },
+    { "title": "Cyber Incidents", "value": 89, "trend": 5, "icon": "shield" }
+  ],
+  "trend": {
+    "labels": ["Jun 1", "Jun 5", "Jun 10", "Jun 15", "Jun 20", "Jun 25", "Jun 30"],
+    "crime": [320, 280, 410, 380, 450, 390, 420],
+    "cyber": [45, 52, 48, 63, 55, 70, 61]
+  },
+  "alerts": [
+    { "id": "a1", "message": "Bengaluru Urban — theft spike", "severity": "high", "time": "2m ago" },
+    { "id": "a2", "message": "Mysuru — vehicle theft ring", "severity": "medium", "time": "15m ago" },
+    { "id": "a3", "message": "Belagavi — cyber fraud cluster", "severity": "high", "time": "1h ago" }
+  ],
+  "districtRankings": [
+    { "name": "Bengaluru Urban", "score": 87, "trend": 12 },
+    { "name": "Mysuru", "score": 72, "trend": 5 },
+    { "name": "Belagavi", "score": 68, "trend": -2 },
+    { "name": "Hubballi", "score": 61, "trend": 8 },
+    { "name": "Kalaburagi", "score": 55, "trend": 3 }
+  ],
+  "anomalies": [
+    { "id": "an1", "district": "Bengaluru Urban", "type": "theft", "description": "↑40% above baseline", "severity": "high" },
+    { "id": "an2", "district": "Belagavi", "type": "cyber", "description": "↑25% MoM", "severity": "medium" },
+    { "id": "an3", "district": "Mysuru", "type": "robbery", "description": "New pattern detected", "severity": "medium" }
+  ],
+  "quickActions": [
+    { "label": "Add Crime", "route": "/crime/cases/new", "icon": "plus" },
+    { "label": "MO Match", "route": "/crime/mo-matcher", "icon": "search" },
+    { "label": "Upload Data", "route": "/data/upload", "icon": "upload" },
+    { "label": "Scrape", "route": "/data/sources", "icon": "globe" }
+  ]
+}

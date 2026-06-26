@@ -1,0 +1,6352 @@
+[
+  {
+    "id": "CYB-2026-001",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-01",
+    "detectedAt": "2026-06-01T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "192.168.1.100"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 50 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-001",
+      "EV-006"
+    ]
+  },
+  {
+    "id": "CYB-2026-002",
+    "type": "Malware",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-02",
+    "detectedAt": "2026-06-02T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "10.0.0.55",
+        "172.16.4.20"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 53 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-02",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-002",
+      "EV-007"
+    ]
+  },
+  {
+    "id": "CYB-2026-003",
+    "type": "Ransomware",
+    "severity": "low",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-03",
+    "detectedAt": "2026-06-03T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "203.0.113.50",
+        "45.77.12.9"
+      ],
+      "domains": [
+        "corpdata.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 56 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-03",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-003",
+      "EV-008"
+    ]
+  },
+  {
+    "id": "CYB-2026-004",
+    "type": "DDoS",
+    "severity": "high",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-04",
+    "detectedAt": "2026-06-04T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "198.51.100.77"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 59 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-04",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-004",
+      "EV-009"
+    ]
+  },
+  {
+    "id": "CYB-2026-005",
+    "type": "Data Breach",
+    "severity": "medium",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-05",
+    "detectedAt": "2026-06-05T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "172.16.4.20",
+        "185.199.108.1"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 62 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-05",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-005",
+      "EV-010"
+    ]
+  },
+  {
+    "id": "CYB-2026-006",
+    "type": "Social Engineering",
+    "severity": "low",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-06",
+    "detectedAt": "2026-06-06T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "45.77.12.9",
+        "8.8.8.8"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 65 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-06",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-006",
+      "EV-011"
+    ]
+  },
+  {
+    "id": "CYB-2026-007",
+    "type": "Insider Threat",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-07",
+    "detectedAt": "2026-06-07T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "103.21.244.8"
+      ],
+      "domains": [
+        "secure-gov-login.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 68 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-07",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-007",
+      "EV-012"
+    ]
+  },
+  {
+    "id": "CYB-2026-008",
+    "type": "Web Defacement",
+    "severity": "high",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-08",
+    "detectedAt": "2026-06-08T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "185.199.108.1",
+        "117.239.1.1"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 71 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-08",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-008",
+      "EV-013"
+    ]
+  },
+  {
+    "id": "CYB-2026-009",
+    "type": "Cyber Fraud",
+    "severity": "low",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-09",
+    "detectedAt": "2026-06-09T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "8.8.8.8",
+        "49.207.10.20"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 74 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-09",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-009",
+      "EV-014"
+    ]
+  },
+  {
+    "id": "CYB-2026-010",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-10",
+    "detectedAt": "2026-06-10T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "1.1.1.1"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 77 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-10",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-010",
+      "EV-015"
+    ]
+  },
+  {
+    "id": "CYB-2026-011",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-11",
+    "detectedAt": "2026-06-11T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "117.239.1.1",
+        "59.144.12.45"
+      ],
+      "domains": [
+        "bank-secure-login.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 80 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-11",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-011",
+      "EV-016"
+    ]
+  },
+  {
+    "id": "CYB-2026-012",
+    "type": "Malware",
+    "severity": "high",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-12",
+    "detectedAt": "2026-06-12T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "49.207.10.20",
+        "122.166.10.9"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 83 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-12",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-012",
+      "EV-017"
+    ]
+  },
+  {
+    "id": "CYB-2026-013",
+    "type": "Ransomware",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-13",
+    "detectedAt": "2026-06-13T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "14.139.155.5"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 86 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-13",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-013",
+      "EV-018"
+    ]
+  },
+  {
+    "id": "CYB-2026-014",
+    "type": "DDoS",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-14",
+    "detectedAt": "2026-06-14T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "59.144.12.45",
+        "202.88.174.6"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 89 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-14",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-014",
+      "EV-019"
+    ]
+  },
+  {
+    "id": "CYB-2026-015",
+    "type": "Data Breach",
+    "severity": "low",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-15",
+    "detectedAt": "2026-06-15T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "122.166.10.9",
+        "103.48.51.10"
+      ],
+      "domains": [
+        "pay-kyc-update.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 92 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-15",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-015",
+      "EV-020"
+    ]
+  },
+  {
+    "id": "CYB-2026-016",
+    "type": "Social Engineering",
+    "severity": "high",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-16",
+    "detectedAt": "2026-06-16T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "106.51.72.1"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 95 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-16",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-016",
+      "EV-021"
+    ]
+  },
+  {
+    "id": "CYB-2026-017",
+    "type": "Insider Threat",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-17",
+    "detectedAt": "2026-06-17T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "202.88.174.6",
+        "13.107.42.14"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 98 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-17",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-017",
+      "EV-022"
+    ]
+  },
+  {
+    "id": "CYB-2026-018",
+    "type": "Web Defacement",
+    "severity": "low",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-18",
+    "detectedAt": "2026-06-18T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "103.48.51.10",
+        "192.168.1.100"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 101 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-18",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-018",
+      "EV-023"
+    ]
+  },
+  {
+    "id": "CYB-2026-019",
+    "type": "Cyber Fraud",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-19",
+    "detectedAt": "2026-06-19T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "157.240.16.35"
+      ],
+      "domains": [
+        "upi-refund.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 104 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-19",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-019",
+      "EV-024"
+    ]
+  },
+  {
+    "id": "CYB-2026-020",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-20",
+    "detectedAt": "2026-06-20T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "13.107.42.14",
+        "203.0.113.50"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 107 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-20",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-020",
+      "EV-025"
+    ]
+  },
+  {
+    "id": "CYB-2026-021",
+    "type": "Phishing",
+    "severity": "low",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-21",
+    "detectedAt": "2026-06-21T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "192.168.1.100",
+        "198.51.100.77"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 110 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-21",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-021",
+      "EV-026"
+    ]
+  },
+  {
+    "id": "CYB-2026-022",
+    "type": "Malware",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-22",
+    "detectedAt": "2026-06-22T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "10.0.0.55"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 113 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-22",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-022",
+      "EV-027"
+    ]
+  },
+  {
+    "id": "CYB-2026-023",
+    "type": "Ransomware",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-23",
+    "detectedAt": "2026-06-23T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "203.0.113.50",
+        "45.77.12.9"
+      ],
+      "domains": [
+        "corpdata.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 116 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-23",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-023",
+      "EV-028"
+    ]
+  },
+  {
+    "id": "CYB-2026-024",
+    "type": "DDoS",
+    "severity": "high",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-24",
+    "detectedAt": "2026-06-24T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "198.51.100.77",
+        "103.21.244.8"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 119 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-24",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-024",
+      "EV-029"
+    ]
+  },
+  {
+    "id": "CYB-2026-025",
+    "type": "Data Breach",
+    "severity": "medium",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-25",
+    "detectedAt": "2026-06-25T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "172.16.4.20"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 122 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-25",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-025",
+      "EV-030"
+    ]
+  },
+  {
+    "id": "CYB-2026-026",
+    "type": "Social Engineering",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-26",
+    "detectedAt": "2026-06-26T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "45.77.12.9",
+        "8.8.8.8"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 125 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-26",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-026",
+      "EV-031"
+    ]
+  },
+  {
+    "id": "CYB-2026-027",
+    "type": "Insider Threat",
+    "severity": "low",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-27",
+    "detectedAt": "2026-06-27T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "103.21.244.8",
+        "1.1.1.1"
+      ],
+      "domains": [
+        "secure-gov-login.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 128 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-27",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-027",
+      "EV-032"
+    ]
+  },
+  {
+    "id": "CYB-2026-028",
+    "type": "Web Defacement",
+    "severity": "high",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-28",
+    "detectedAt": "2026-06-28T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "185.199.108.1"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 131 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-28",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-028",
+      "EV-033"
+    ]
+  },
+  {
+    "id": "CYB-2026-029",
+    "type": "Cyber Fraud",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-01",
+    "detectedAt": "2026-06-01T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "8.8.8.8",
+        "49.207.10.20"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 134 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-029",
+      "EV-034"
+    ]
+  },
+  {
+    "id": "CYB-2026-030",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-02",
+    "detectedAt": "2026-06-02T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "1.1.1.1",
+        "14.139.155.5"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 137 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-02",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-030",
+      "EV-035"
+    ]
+  },
+  {
+    "id": "CYB-2026-031",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-03",
+    "detectedAt": "2026-06-03T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "117.239.1.1"
+      ],
+      "domains": [
+        "bank-secure-login.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 140 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-03",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-031",
+      "EV-001"
+    ]
+  },
+  {
+    "id": "CYB-2026-032",
+    "type": "Malware",
+    "severity": "high",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-04",
+    "detectedAt": "2026-06-04T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "49.207.10.20",
+        "122.166.10.9"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 143 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-04",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-032",
+      "EV-002"
+    ]
+  },
+  {
+    "id": "CYB-2026-033",
+    "type": "Ransomware",
+    "severity": "low",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-05",
+    "detectedAt": "2026-06-05T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "14.139.155.5",
+        "106.51.72.1"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 146 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-05",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-033",
+      "EV-003"
+    ]
+  },
+  {
+    "id": "CYB-2026-034",
+    "type": "DDoS",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-06",
+    "detectedAt": "2026-06-06T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "59.144.12.45"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 149 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-06",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-034",
+      "EV-004"
+    ]
+  },
+  {
+    "id": "CYB-2026-035",
+    "type": "Data Breach",
+    "severity": "medium",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-07",
+    "detectedAt": "2026-06-07T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "122.166.10.9",
+        "103.48.51.10"
+      ],
+      "domains": [
+        "pay-kyc-update.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 152 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-07",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-035",
+      "EV-005"
+    ]
+  },
+  {
+    "id": "CYB-2026-036",
+    "type": "Social Engineering",
+    "severity": "high",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-08",
+    "detectedAt": "2026-06-08T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "106.51.72.1",
+        "157.240.16.35"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 155 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-08",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-001",
+      "EV-006"
+    ]
+  },
+  {
+    "id": "CYB-2026-037",
+    "type": "Insider Threat",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-09",
+    "detectedAt": "2026-06-09T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "202.88.174.6"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 158 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-09",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-002",
+      "EV-007"
+    ]
+  },
+  {
+    "id": "CYB-2026-038",
+    "type": "Web Defacement",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-10",
+    "detectedAt": "2026-06-10T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "103.48.51.10",
+        "192.168.1.100"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 161 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-10",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-003",
+      "EV-008"
+    ]
+  },
+  {
+    "id": "CYB-2026-039",
+    "type": "Cyber Fraud",
+    "severity": "low",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-11",
+    "detectedAt": "2026-06-11T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "157.240.16.35",
+        "10.0.0.55"
+      ],
+      "domains": [
+        "upi-refund.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 164 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-11",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-004",
+      "EV-009"
+    ]
+  },
+  {
+    "id": "CYB-2026-040",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-12",
+    "detectedAt": "2026-06-12T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "13.107.42.14"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 167 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-12",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-005",
+      "EV-010"
+    ]
+  },
+  {
+    "id": "CYB-2026-041",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-13",
+    "detectedAt": "2026-06-13T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "192.168.1.100",
+        "198.51.100.77"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 170 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-13",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-006",
+      "EV-011"
+    ]
+  },
+  {
+    "id": "CYB-2026-042",
+    "type": "Malware",
+    "severity": "low",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-14",
+    "detectedAt": "2026-06-14T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "10.0.0.55",
+        "172.16.4.20"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 173 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-14",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-007",
+      "EV-012"
+    ]
+  },
+  {
+    "id": "CYB-2026-043",
+    "type": "Ransomware",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-15",
+    "detectedAt": "2026-06-15T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "203.0.113.50"
+      ],
+      "domains": [
+        "corpdata.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 176 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-15",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-008",
+      "EV-013"
+    ]
+  },
+  {
+    "id": "CYB-2026-044",
+    "type": "DDoS",
+    "severity": "high",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-16",
+    "detectedAt": "2026-06-16T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "198.51.100.77",
+        "103.21.244.8"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 179 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-16",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-009",
+      "EV-014"
+    ]
+  },
+  {
+    "id": "CYB-2026-045",
+    "type": "Data Breach",
+    "severity": "low",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-17",
+    "detectedAt": "2026-06-17T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "172.16.4.20",
+        "185.199.108.1"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 182 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-17",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-010",
+      "EV-015"
+    ]
+  },
+  {
+    "id": "CYB-2026-046",
+    "type": "Social Engineering",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-18",
+    "detectedAt": "2026-06-18T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "45.77.12.9"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 185 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-18",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-011",
+      "EV-016"
+    ]
+  },
+  {
+    "id": "CYB-2026-047",
+    "type": "Insider Threat",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-19",
+    "detectedAt": "2026-06-19T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "103.21.244.8",
+        "1.1.1.1"
+      ],
+      "domains": [
+        "secure-gov-login.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 188 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-19",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-012",
+      "EV-017"
+    ]
+  },
+  {
+    "id": "CYB-2026-048",
+    "type": "Web Defacement",
+    "severity": "high",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-20",
+    "detectedAt": "2026-06-20T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "185.199.108.1",
+        "117.239.1.1"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 191 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-20",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-013",
+      "EV-018"
+    ]
+  },
+  {
+    "id": "CYB-2026-049",
+    "type": "Cyber Fraud",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-21",
+    "detectedAt": "2026-06-21T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "8.8.8.8"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 194 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-21",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-014",
+      "EV-019"
+    ]
+  },
+  {
+    "id": "CYB-2026-050",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-22",
+    "detectedAt": "2026-06-22T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "1.1.1.1",
+        "14.139.155.5"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 197 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-22",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-015",
+      "EV-020"
+    ]
+  },
+  {
+    "id": "CYB-2026-051",
+    "type": "Phishing",
+    "severity": "low",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-23",
+    "detectedAt": "2026-06-23T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "117.239.1.1",
+        "59.144.12.45"
+      ],
+      "domains": [
+        "bank-secure-login.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 200 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-23",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-016",
+      "EV-021"
+    ]
+  },
+  {
+    "id": "CYB-2026-052",
+    "type": "Malware",
+    "severity": "high",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-24",
+    "detectedAt": "2026-06-24T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "49.207.10.20"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 203 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-24",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-017",
+      "EV-022"
+    ]
+  },
+  {
+    "id": "CYB-2026-053",
+    "type": "Ransomware",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-25",
+    "detectedAt": "2026-06-25T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "14.139.155.5",
+        "106.51.72.1"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 206 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-25",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-018",
+      "EV-023"
+    ]
+  },
+  {
+    "id": "CYB-2026-054",
+    "type": "DDoS",
+    "severity": "low",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-26",
+    "detectedAt": "2026-06-26T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "59.144.12.45",
+        "202.88.174.6"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 209 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-26",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-019",
+      "EV-024"
+    ]
+  },
+  {
+    "id": "CYB-2026-055",
+    "type": "Data Breach",
+    "severity": "medium",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-27",
+    "detectedAt": "2026-06-27T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "122.166.10.9"
+      ],
+      "domains": [
+        "pay-kyc-update.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 212 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-27",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-020",
+      "EV-025"
+    ]
+  },
+  {
+    "id": "CYB-2026-056",
+    "type": "Social Engineering",
+    "severity": "high",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-28",
+    "detectedAt": "2026-06-28T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "106.51.72.1",
+        "157.240.16.35"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 215 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-28",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-021",
+      "EV-026"
+    ]
+  },
+  {
+    "id": "CYB-2026-057",
+    "type": "Insider Threat",
+    "severity": "low",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-01",
+    "detectedAt": "2026-06-01T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "202.88.174.6",
+        "13.107.42.14"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 218 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-022",
+      "EV-027"
+    ]
+  },
+  {
+    "id": "CYB-2026-058",
+    "type": "Web Defacement",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-02",
+    "detectedAt": "2026-06-02T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "103.48.51.10"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 221 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-02",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-023",
+      "EV-028"
+    ]
+  },
+  {
+    "id": "CYB-2026-059",
+    "type": "Cyber Fraud",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-03",
+    "detectedAt": "2026-06-03T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "157.240.16.35",
+        "10.0.0.55"
+      ],
+      "domains": [
+        "upi-refund.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 224 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-03",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-024",
+      "EV-029"
+    ]
+  },
+  {
+    "id": "CYB-2026-060",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-04",
+    "detectedAt": "2026-06-04T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "13.107.42.14",
+        "203.0.113.50"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 227 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-04",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-025",
+      "EV-030"
+    ]
+  },
+  {
+    "id": "CYB-2026-061",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-05",
+    "detectedAt": "2026-06-05T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "192.168.1.100"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 230 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-05",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-026",
+      "EV-031"
+    ]
+  },
+  {
+    "id": "CYB-2026-062",
+    "type": "Malware",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-06",
+    "detectedAt": "2026-06-06T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "10.0.0.55",
+        "172.16.4.20"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 233 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-06",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-027",
+      "EV-032"
+    ]
+  },
+  {
+    "id": "CYB-2026-063",
+    "type": "Ransomware",
+    "severity": "low",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-07",
+    "detectedAt": "2026-06-07T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "203.0.113.50",
+        "45.77.12.9"
+      ],
+      "domains": [
+        "corpdata.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 236 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-07",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-028",
+      "EV-033"
+    ]
+  },
+  {
+    "id": "CYB-2026-064",
+    "type": "DDoS",
+    "severity": "high",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-08",
+    "detectedAt": "2026-06-08T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "198.51.100.77"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 239 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-08",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-029",
+      "EV-034"
+    ]
+  },
+  {
+    "id": "CYB-2026-065",
+    "type": "Data Breach",
+    "severity": "medium",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-09",
+    "detectedAt": "2026-06-09T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "172.16.4.20",
+        "185.199.108.1"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 242 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-09",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-030",
+      "EV-035"
+    ]
+  },
+  {
+    "id": "CYB-2026-066",
+    "type": "Social Engineering",
+    "severity": "low",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-10",
+    "detectedAt": "2026-06-10T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "45.77.12.9",
+        "8.8.8.8"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 245 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-10",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-031",
+      "EV-001"
+    ]
+  },
+  {
+    "id": "CYB-2026-067",
+    "type": "Insider Threat",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-11",
+    "detectedAt": "2026-06-11T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "103.21.244.8"
+      ],
+      "domains": [
+        "secure-gov-login.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 248 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-11",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-032",
+      "EV-002"
+    ]
+  },
+  {
+    "id": "CYB-2026-068",
+    "type": "Web Defacement",
+    "severity": "high",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-12",
+    "detectedAt": "2026-06-12T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "185.199.108.1",
+        "117.239.1.1"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 251 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-12",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-033",
+      "EV-003"
+    ]
+  },
+  {
+    "id": "CYB-2026-069",
+    "type": "Cyber Fraud",
+    "severity": "low",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-13",
+    "detectedAt": "2026-06-13T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "8.8.8.8",
+        "49.207.10.20"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 254 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-13",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-034",
+      "EV-004"
+    ]
+  },
+  {
+    "id": "CYB-2026-070",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-14",
+    "detectedAt": "2026-06-14T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "1.1.1.1"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 257 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-14",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-035",
+      "EV-005"
+    ]
+  },
+  {
+    "id": "CYB-2026-071",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-15",
+    "detectedAt": "2026-06-15T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "117.239.1.1",
+        "59.144.12.45"
+      ],
+      "domains": [
+        "bank-secure-login.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 260 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-15",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-001",
+      "EV-006"
+    ]
+  },
+  {
+    "id": "CYB-2026-072",
+    "type": "Malware",
+    "severity": "high",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-16",
+    "detectedAt": "2026-06-16T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "49.207.10.20",
+        "122.166.10.9"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 263 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-16",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-002",
+      "EV-007"
+    ]
+  },
+  {
+    "id": "CYB-2026-073",
+    "type": "Ransomware",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-17",
+    "detectedAt": "2026-06-17T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "14.139.155.5"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 266 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-17",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-003",
+      "EV-008"
+    ]
+  },
+  {
+    "id": "CYB-2026-074",
+    "type": "DDoS",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-18",
+    "detectedAt": "2026-06-18T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "59.144.12.45",
+        "202.88.174.6"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 269 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-18",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-004",
+      "EV-009"
+    ]
+  },
+  {
+    "id": "CYB-2026-075",
+    "type": "Data Breach",
+    "severity": "low",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-19",
+    "detectedAt": "2026-06-19T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "122.166.10.9",
+        "103.48.51.10"
+      ],
+      "domains": [
+        "pay-kyc-update.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 272 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-19",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-005",
+      "EV-010"
+    ]
+  },
+  {
+    "id": "CYB-2026-076",
+    "type": "Social Engineering",
+    "severity": "high",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-20",
+    "detectedAt": "2026-06-20T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "106.51.72.1"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 275 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-20",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-006",
+      "EV-011"
+    ]
+  },
+  {
+    "id": "CYB-2026-077",
+    "type": "Insider Threat",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-21",
+    "detectedAt": "2026-06-21T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "202.88.174.6",
+        "13.107.42.14"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 278 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-21",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-007",
+      "EV-012"
+    ]
+  },
+  {
+    "id": "CYB-2026-078",
+    "type": "Web Defacement",
+    "severity": "low",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-22",
+    "detectedAt": "2026-06-22T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "103.48.51.10",
+        "192.168.1.100"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 281 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-22",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-008",
+      "EV-013"
+    ]
+  },
+  {
+    "id": "CYB-2026-079",
+    "type": "Cyber Fraud",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-23",
+    "detectedAt": "2026-06-23T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "157.240.16.35"
+      ],
+      "domains": [
+        "upi-refund.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 284 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-23",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-23",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-009",
+      "EV-014"
+    ]
+  },
+  {
+    "id": "CYB-2026-080",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-24",
+    "detectedAt": "2026-06-24T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "13.107.42.14",
+        "203.0.113.50"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 287 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-24",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-010",
+      "EV-015"
+    ]
+  },
+  {
+    "id": "CYB-2026-081",
+    "type": "Phishing",
+    "severity": "low",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-25",
+    "detectedAt": "2026-06-25T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "192.168.1.100",
+        "198.51.100.77"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 290 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-25",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-011",
+      "EV-016"
+    ]
+  },
+  {
+    "id": "CYB-2026-082",
+    "type": "Malware",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-26",
+    "detectedAt": "2026-06-26T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "10.0.0.55"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 293 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-26",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-012",
+      "EV-017"
+    ]
+  },
+  {
+    "id": "CYB-2026-083",
+    "type": "Ransomware",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-27",
+    "detectedAt": "2026-06-27T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "203.0.113.50",
+        "45.77.12.9"
+      ],
+      "domains": [
+        "corpdata.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 296 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-27",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-27",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-013",
+      "EV-018"
+    ]
+  },
+  {
+    "id": "CYB-2026-084",
+    "type": "DDoS",
+    "severity": "high",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-28",
+    "detectedAt": "2026-06-28T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "198.51.100.77",
+        "103.21.244.8"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 299 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-28",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-28",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-014",
+      "EV-019"
+    ]
+  },
+  {
+    "id": "CYB-2026-085",
+    "type": "Data Breach",
+    "severity": "medium",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-01",
+    "detectedAt": "2026-06-01T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "172.16.4.20"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 302 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-015",
+      "EV-020"
+    ]
+  },
+  {
+    "id": "CYB-2026-086",
+    "type": "Social Engineering",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-02",
+    "detectedAt": "2026-06-02T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "45.77.12.9",
+        "8.8.8.8"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 305 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-02",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-016",
+      "EV-021"
+    ]
+  },
+  {
+    "id": "CYB-2026-087",
+    "type": "Insider Threat",
+    "severity": "low",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-03",
+    "detectedAt": "2026-06-03T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "103.21.244.8",
+        "1.1.1.1"
+      ],
+      "domains": [
+        "secure-gov-login.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 308 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-03",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-03",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-017",
+      "EV-022"
+    ]
+  },
+  {
+    "id": "CYB-2026-088",
+    "type": "Web Defacement",
+    "severity": "high",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-04",
+    "detectedAt": "2026-06-04T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "185.199.108.1"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 311 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-04",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-018",
+      "EV-023"
+    ]
+  },
+  {
+    "id": "CYB-2026-089",
+    "type": "Cyber Fraud",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-05",
+    "detectedAt": "2026-06-05T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "8.8.8.8",
+        "49.207.10.20"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 314 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-05",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-019",
+      "EV-024"
+    ]
+  },
+  {
+    "id": "CYB-2026-090",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-06",
+    "detectedAt": "2026-06-06T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "1.1.1.1",
+        "14.139.155.5"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 317 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-06",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-020",
+      "EV-025"
+    ]
+  },
+  {
+    "id": "CYB-2026-091",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-07",
+    "detectedAt": "2026-06-07T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "117.239.1.1"
+      ],
+      "domains": [
+        "bank-secure-login.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 320 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-07",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-07",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-021",
+      "EV-026"
+    ]
+  },
+  {
+    "id": "CYB-2026-092",
+    "type": "Malware",
+    "severity": "high",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-08",
+    "detectedAt": "2026-06-08T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "49.207.10.20",
+        "122.166.10.9"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 323 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-08",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-022",
+      "EV-027"
+    ]
+  },
+  {
+    "id": "CYB-2026-093",
+    "type": "Ransomware",
+    "severity": "low",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-09",
+    "detectedAt": "2026-06-09T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "14.139.155.5",
+        "106.51.72.1"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 326 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-09",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-023",
+      "EV-028"
+    ]
+  },
+  {
+    "id": "CYB-2026-094",
+    "type": "DDoS",
+    "severity": "medium",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-10",
+    "detectedAt": "2026-06-10T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "59.144.12.45"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 329 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-10",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-024",
+      "EV-029"
+    ]
+  },
+  {
+    "id": "CYB-2026-095",
+    "type": "Data Breach",
+    "severity": "medium",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-11",
+    "detectedAt": "2026-06-11T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "122.166.10.9",
+        "103.48.51.10"
+      ],
+      "domains": [
+        "pay-kyc-update.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 332 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-11",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-025",
+      "EV-030"
+    ]
+  },
+  {
+    "id": "CYB-2026-096",
+    "type": "Social Engineering",
+    "severity": "high",
+    "status": "Under Investigation",
+    "district": "Kalaburagi",
+    "title": "Social Engineering incident impacting Kalaburagi",
+    "description": "Mock social engineering investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-12",
+    "detectedAt": "2026-06-12T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "loan-fast-app.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "106.51.72.1",
+        "157.240.16.35"
+      ],
+      "domains": [
+        "loan-fast-app.com",
+        "fake-dns.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 335 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-12",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-12",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-026",
+      "EV-031"
+    ]
+  },
+  {
+    "id": "CYB-2026-097",
+    "type": "Insider Threat",
+    "severity": "medium",
+    "status": "Open",
+    "district": "Mangaluru",
+    "title": "Insider Threat incident impacting Mangaluru",
+    "description": "Mock insider threat investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-13",
+    "detectedAt": "2026-06-13T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "secure-gov-login.in",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "202.88.174.6"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 338 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-13",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-13",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-027",
+      "EV-032"
+    ]
+  },
+  {
+    "id": "CYB-2026-098",
+    "type": "Web Defacement",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Tumakuru",
+    "title": "Web Defacement incident impacting Tumakuru",
+    "description": "Mock web defacement investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-14",
+    "detectedAt": "2026-06-14T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "fake-dns.com",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "103.48.51.10",
+        "192.168.1.100"
+      ],
+      "domains": [
+        "fake-dns.com",
+        "verify-bank.co"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 341 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-14",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-14",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-028",
+      "EV-033"
+    ]
+  },
+  {
+    "id": "CYB-2026-099",
+    "type": "Cyber Fraud",
+    "severity": "low",
+    "status": "Pending Review",
+    "district": "Shivamogga",
+    "title": "Cyber Fraud incident impacting Shivamogga",
+    "description": "Mock cyber fraud investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-15",
+    "detectedAt": "2026-06-15T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "upi-refund.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "157.240.16.35",
+        "10.0.0.55"
+      ],
+      "domains": [
+        "upi-refund.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 344 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-15",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-029",
+      "EV-034"
+    ]
+  },
+  {
+    "id": "CYB-2026-100",
+    "type": "Identity Theft",
+    "severity": "extreme",
+    "status": "False Positive",
+    "district": "Davanagere",
+    "title": "Identity Theft incident impacting Davanagere",
+    "description": "Mock identity theft investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-16",
+    "detectedAt": "2026-06-16T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "verify-bank.co",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "13.107.42.14"
+      ],
+      "domains": [
+        "verify-bank.co",
+        "sbi-verify.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 347 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-16",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Containment verified"
+      }
+    ],
+    "evidence": [
+      "EV-030",
+      "EV-035"
+    ]
+  },
+  {
+    "id": "CYB-2026-101",
+    "type": "Phishing",
+    "severity": "medium",
+    "status": "Under Investigation",
+    "district": "Bengaluru City",
+    "title": "Phishing incident impacting Bengaluru City",
+    "description": "Mock phishing investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-17",
+    "detectedAt": "2026-06-17T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "bank-secure-login.com",
+    "affectedSystems": [
+      "mail-server-1",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "192.168.1.100",
+        "198.51.100.77"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Email phishing",
+    "impact": "Potential compromise affecting 350 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-17",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Report drafted"
+      }
+    ],
+    "evidence": [
+      "EV-031",
+      "EV-001"
+    ]
+  },
+  {
+    "id": "CYB-2026-102",
+    "type": "Malware",
+    "severity": "low",
+    "status": "Open",
+    "district": "Bengaluru Urban",
+    "title": "Malware incident impacting Bengaluru Urban",
+    "description": "Mock malware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-18",
+    "detectedAt": "2026-06-18T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "sbi-verify.net",
+    "affectedSystems": [
+      "mail-server-2",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "10.0.0.55",
+        "172.16.4.20"
+      ],
+      "domains": [
+        "sbi-verify.net",
+        "ksp-alerts.net"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 353 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell B",
+    "timeline": [
+      {
+        "date": "2026-06-18",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Users notified"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Containment verified"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Report drafted"
+      },
+      {
+        "date": "2026-06-18",
+        "event": "Case review"
+      }
+    ],
+    "evidence": [
+      "EV-032",
+      "EV-002"
+    ]
+  },
+  {
+    "id": "CYB-2026-103",
+    "type": "Ransomware",
+    "severity": "medium",
+    "status": "Resolved",
+    "district": "Mysuru",
+    "title": "Ransomware incident impacting Mysuru",
+    "description": "Mock ransomware investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-19",
+    "detectedAt": "2026-06-19T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "corpdata.in",
+    "affectedSystems": [
+      "mail-server-3",
+      "web-gateway-1"
+    ],
+    "indicators": {
+      "ips": [
+        "203.0.113.50"
+      ],
+      "domains": [
+        "corpdata.in"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 356 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell C",
+    "timeline": [
+      {
+        "date": "2026-06-19",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-19",
+        "event": "Blocked IOCs"
+      }
+    ],
+    "evidence": [
+      "EV-033",
+      "EV-003"
+    ]
+  },
+  {
+    "id": "CYB-2026-104",
+    "type": "DDoS",
+    "severity": "high",
+    "status": "Pending Review",
+    "district": "Belagavi",
+    "title": "DDoS incident impacting Belagavi",
+    "description": "Mock ddos investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-20",
+    "detectedAt": "2026-06-20T08:30:00Z",
+    "source": "Citizen Portal",
+    "target": "ksp-alerts.net",
+    "affectedSystems": [
+      "mail-server-4",
+      "web-gateway-2"
+    ],
+    "indicators": {
+      "ips": [
+        "198.51.100.77",
+        "103.21.244.8"
+      ],
+      "domains": [
+        "ksp-alerts.net",
+        "loan-fast-app.com"
+      ],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Volumetric traffic",
+    "impact": "Potential compromise affecting 359 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell D",
+    "timeline": [
+      {
+        "date": "2026-06-20",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-20",
+        "event": "Forensics started"
+      }
+    ],
+    "evidence": [
+      "EV-034",
+      "EV-004"
+    ]
+  },
+  {
+    "id": "CYB-2026-105",
+    "type": "Data Breach",
+    "severity": "low",
+    "status": "False Positive",
+    "district": "Hubli-Dharwad",
+    "title": "Data Breach incident impacting Hubli-Dharwad",
+    "description": "Mock data breach investigation with correlated indicators and district cyber cell response.",
+    "date": "2026-06-21",
+    "detectedAt": "2026-06-21T08:30:00Z",
+    "source": "SOC Alert",
+    "target": "pay-kyc-update.in",
+    "affectedSystems": [
+      "mail-server-5",
+      "web-gateway-3"
+    ],
+    "indicators": {
+      "ips": [
+        "172.16.4.20",
+        "185.199.108.1"
+      ],
+      "domains": [],
+      "hashes": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    "attackVector": "Compromised endpoint",
+    "impact": "Potential compromise affecting 362 users/systems",
+    "remediation": "Indicators blocked, users alerted, forensic analysis initiated",
+    "assignedTo": "Cyber Cell A",
+    "timeline": [
+      {
+        "date": "2026-06-21",
+        "event": "Detected"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Triaged"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Blocked IOCs"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Forensics started"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Users notified"
+      }
+    ],
+    "evidence": [
+      "EV-035",
+      "EV-005"
+    ]
+  }
+]

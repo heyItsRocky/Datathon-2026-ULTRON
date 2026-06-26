@@ -1,0 +1,1 @@
+import { useFilterStore } from '@/stores/filterStore'; export function useMapFilters(){const filters=useFilterStore(s=>s.mapFilters); const set=useFilterStore(s=>s.setMapFilters); return{filters,setLayer:(layer:string,enabled:boolean)=>set({[layer]:enabled}),reset:()=>set({})}}

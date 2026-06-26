@@ -1,0 +1,16 @@
+import { useMemo, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { KarnatakaMap } from '@/features/maps/components/KarnatakaMap';
+import { LayerControl, type MapLayers } from '@/features/maps/components/LayerControl';
+import { MapLegend } from '@/features/maps/components/MapLegend';
+import { useHotspots } from '@/features/maps/hooks/useHotspots';
+import { usePredictiveZones } from '@/features/maps/hooks/usePredictiveZones';
+import { useRedZones } from '@/features/maps/hooks/useRedZones';
+import { useCrimeList } from '@/features/crime/hooks/useCrimeList';
+import { useDistrictStats } from '@/features/maps/hooks/useDistrictStats';
+import { EmptyState, ErrorState, LoadingSkeleton } from '@/shared/components';
+import { Badge, Button } from '@/shared/ui-kit';
+import { useUiStore } from '@/stores/uiStore';
+
+const names:Record<string,string>={'bengaluru-urban':'Bengaluru Urban','bengaluru-rural':'Bengaluru Rural',mysuru:'Mysuru',belagavi:'Belagavi','hubli-dharwad':'Hubli-Dharwad',kalaburagi:'Kalaburagi',mangaluru:'Mangaluru',tumakuru:'Tumakuru',shivamogga:'Shivamogga',davanagere:'Davanagere'};
+export default function MapsOverviewPage(){const nav=useNavigate(); const [selected,setSelected]=useState('bengaluru-urban'); const [layers,setLayers]=useState<MapLayers>({crimePins:true,hotspots:true,redZones:true,predictive:false,socioEconomic:false}); const h=useHotspots(), r=useRedZones(), p=usePredictiveZones(), c=useCrimeList(), d=useDistrictStats(selected); const loading=h.isLoading||r.isLoading||p.isLoading||c.isLoading; const error=h.error||r.error||p.error||c.error; const open=useUiStore(s=>s.openRightPanel); const top=useMemo(()=>Object.entries(d.data?.crimeBreakdown??{}).sort((a,b)=>b[1]-a[1])[0]?.[0]??'N/A',[d.data]); const click=(id:string)=>{setSelected(id); open({title:names[id]??id,content:`${d.data?.totalCrimes??0} crimes · ${d.data?.riskLevel??'unknown'} risk`});}; if(loading)return <LoadingSkeleton variant="map"/>; if(error)return <ErrorState message={error.message} onRetry={()=>{void h.refetch();void r.refetch();void p.refetch();void c.refetch();}}/>; if(!h.data?.length)return <EmptyState title="Map data unavailable" description="No geospatial data available."/>; return <div className="relative"><KarnatakaMap layers={layers} crimes={c.data??[]} hotspots={h.data??[]} redZones={r.data??[]} predictiveZones={p.data??[]} onDistrictClick={click} onDistrictHover={setSelected} onDistrictDoubleClick={(id)=>nav(`/maps/districts/${id}`)}/><LayerControl layers={layers} onToggle={k=>setLayers(v=>({...v,[k]:!v[k]}))}/><MapLegend/><div className="glass-card absolute bottom-4 left-4 z-[500] max-w-xs rounded-xl p-4"><p className="text-xs uppercase text-[var(--color-gold)]">Selected District</p><h2 className="text-xl font-bold">{names[selected]??selected}</h2>{d.data?<><p className="mt-2 text-sm text-[var(--color-text-secondary)]">{d.data.totalCrimes.toLocaleString()} crimes · top: {top}</p><Badge variant={d.data.riskLevel==='extreme'?'red':d.data.riskLevel==='high'?'amber':'green'}>{d.data.riskLevel}</Badge><div className="mt-3"><Link to={`/maps/districts/${selected}`}><Button size="sm">View Details →</Button></Link></div></>:<p className="text-sm text-[var(--color-text-muted)]">Hover or click major district</p>}</div></div>}
