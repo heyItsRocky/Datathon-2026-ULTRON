@@ -1,0 +1,108 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "extends": true,
+  "name": "ULTRON - KSP Police Command Center",
+  "description": "Datathon 2026 project. Police command center app with real-time crime mapping, FIR tracking, patrol allocation, and predictive analytics.",
+  "tech_stack": {
+    "frontend": ["React 19", "Vite", "TypeScript", "Tailwind CSS v4", "Motion", "Recharts", "Leaflet", "Cytoscape", "xyflow", "Radix UI", "Zustand", "TanStack Query", "Sonner", "axios", "clsx", "lucide-react"],
+    "backend": ["Catalyst framework", "Python"],
+    "database": ["PostgreSQL"],
+    "infrastructure": ["Docker"]
+  },
+  "project": {
+    "root": "/mnt/e/Datathon-2026-ULTRON",
+    "frontend": "/mnt/e/Datathon-2026-ULTRON/frontend",
+    "backend": "/mnt/e/Datathon-2026-ULTRON/catalyst",
+    "scripts": "/mnt/e/Datathon-2026-ULTRON/scripts"
+  },
+  "scripts": {
+    "frontend:dev": "cd /mnt/e/Datathon-2026-ULTRON/frontend && npm run dev",
+    "frontend:build": "cd /mnt/e/Datathon-2026-ULTRON/frontend && npm run build",
+    "frontend:lint": "cd /mnt/e/Datathon-2026-ULTRON/frontend && npm run lint",
+    "frontend:preview": "cd /mnt/e/Datathon-2026-ULTRON/frontend && npm run preview"
+  },
+  "agent": {
+    "hellcat": {
+      "description": "Build and implementation agent. Writes production-quality code, implements features, fixes bugs, refactors code, optimizes performance, and runs tests.",
+      "mode": "primary",
+      "color": "#DC2626",
+      "model": "opencode/big-pickle",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
+      }
+    },
+    "ghost": {
+      "description": "Strategic planning agent. Analyzes requirements, breaks down tasks, creates implementation plans, designs architecture, and produces task breakdowns before any code is written.",
+      "mode": "primary",
+      "color": "#E5E7EB",
+      "model": "opencode/big-pickle",
+      "permission": {
+        "edit": "deny",
+        "bash": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
+      }
+    },
+    "viper": {
+      "description": "Documentation and writing agent. Creates README files, API docs, inline code documentation, API reference generation, changelogs, and technical writing.",
+      "mode": "primary",
+      "color": "#16A34A",
+      "model": "opencode/big-pickle",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
+      }
+    },
+    "raven": {
+      "description": "Operations and DevOps agent. Manages Git operations, GitHub workflows, deployments, CI/CD, release management, branch strategy, and repository maintenance.",
+      "mode": "primary",
+      "color": "#6D28D9",
+      "model": "opencode/big-pickle",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
+      }
+    }
+  },
+  "command": {
+    "dev": {
+      "description": "Start frontend dev server",
+      "delegate": {
+        "to": "shell"
+      },
+      "template": "Run the frontend development server: cd /mnt/e/Datathon-2026-ULTRON/frontend && npm run dev"
+    },
+    "build": {
+      "description": "Build frontend for production",
+      "delegate": {
+        "to": "shell"
+      },
+      "template": "Build the frontend: cd /mnt/e/Datathon-2026-ULTRON/frontend && npm run build"
+    },
+    "lint": {
+      "description": "Run frontend linter",
+      "delegate": {
+        "to": "hellcat"
+      },
+      "template": "Run the frontend linter: cd /mnt/e/Datathon-2026-ULTRON/frontend && npm run lint"
+    },
+    "deploy": {
+      "description": "Deploy the application",
+      "delegate": {
+        "to": "raven"
+      },
+      "template": "Build frontend and deploy the application. Check DEPLOYMENT.md for deployment instructions. Run build verification first."
+    }
+  }
+}

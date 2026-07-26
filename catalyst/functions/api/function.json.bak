@@ -1,0 +1,21 @@
+{
+  "function_type": "advanced_io",
+  "runtime": "python3.13",
+  "memory": 512,
+  "timeout": 30,
+  "environments": [
+    {
+      "name": "default",
+      "env": [
+        { "name": "MOCK_MODE", "value": "true" },
+        { "name": "GATEWAY_URL", "value": "" },
+        { "name": "QUICKML_ENDPOINT", "value": "" },
+        { "name": "LLM_DEPLOYMENT_ID", "value": "" },
+        { "name": "KB_DOCUMENT_ID", "value": "" },
+        { "name": "CONNECTION_ID", "value": "" },
+        { "name": "CATALYST_ENV", "value": "development" },
+        { "name": "LOG_LEVEL", "value": "INFO" }
+      ]
+    }
+  ]
+}

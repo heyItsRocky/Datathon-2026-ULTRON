@@ -1,0 +1,12 @@
+{
+  "category": "advanced.io.function",
+  "runtime": "python3.13",
+  "memory": 256,
+  "timeout": 30,
+  "env": {
+    "TABLE_USERS": "Users",
+    "TABLE_AUDIT": "AuditLogs",
+    "TABLE_CRIMES": "Crimes",
+    "TABLE_THREATS": "CyberThreats"
+  }
+}

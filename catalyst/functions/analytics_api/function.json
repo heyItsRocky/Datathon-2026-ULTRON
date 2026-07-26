@@ -1,0 +1,13 @@
+{
+  "category": "advanced.io.function",
+  "runtime": "python3.13",
+  "memory": 1024,
+  "timeout": 30,
+  "env": {
+    "TABLE_CRIMES": "Crimes",
+    "TABLE_CRIMINALS": "Criminals",
+    "TABLE_LINKS": "CrimeCriminalLinks",
+    "TABLE_DISTRICTS": "Districts",
+    "TABLE_THREATS": "CyberThreats"
+  }
+}

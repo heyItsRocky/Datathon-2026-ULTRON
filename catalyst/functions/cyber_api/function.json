@@ -1,0 +1,10 @@
+{
+  "category": "advanced.io.function",
+  "runtime": "python3.13",
+  "memory": 512,
+  "timeout": 30,
+  "env": {
+    "TABLE_THREATS": "CyberThreats",
+    "TABLE_IOCS": "CyberIndicators"
+  }
+}

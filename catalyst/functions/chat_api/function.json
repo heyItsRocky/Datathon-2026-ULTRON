@@ -1,0 +1,13 @@
+{
+  "category": "advanced.io.function",
+  "runtime": "python3.13",
+  "memory": 1024,
+  "timeout": 30,
+  "env": {
+    "TABLE_CRIMES": "Crimes",
+    "TABLE_CRIMINALS": "Criminals",
+    "LLM_CONNECTION_ID": "YOUR_QUICKML_CONNECTION_ID",
+    "LLM_DEPLOYMENT_ID": "YOUR_LLM_DEPLOYMENT_ID",
+    "KB_DOCUMENT_ID": "YOUR_KNOWLEDGE_BASE_DOC_ID"
+  }
+}

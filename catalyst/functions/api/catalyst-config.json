@@ -1,0 +1,20 @@
+{
+    "deployment": {
+        "name": "api",
+        "stack": "python_3_13",
+        "type": "advancedio",
+        "env_variables": {
+            "MOCK_MODE": "false",
+            "GATEWAY_URL": "https://49084000000013049.development.catalystserverless.in",
+            "QUICKML_ENDPOINT": "",
+            "LLM_DEPLOYMENT_ID": "",
+            "KB_DOCUMENT_ID": "",
+            "CONNECTION_ID": "",
+            "APP_ENV": "development",
+            "LOG_LEVEL": "INFO"
+        }
+    },
+    "execution": {
+        "main": "__init__.py"
+    }
+}

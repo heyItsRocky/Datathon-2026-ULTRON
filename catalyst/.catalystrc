@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "49084000000013049",
+      "name": "Hack2Skill",
+      "domain": {
+        "id": "50043461872",
+        "name": "hack2skill-60075462809.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60075462809",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

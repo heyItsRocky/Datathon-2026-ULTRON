@@ -1,0 +1,11 @@
+{
+  "project_id": "49084000000013049",
+  "project_name": "Hack2Skill",
+  "api_domain": "https://api.catalyst.zoho.com",
+  "accounts_url": "https://accounts.zoho.com",
+  "functions": {
+    "targets": ["api"],
+    "ignore": [],
+    "source": "functions"
+  }
+}

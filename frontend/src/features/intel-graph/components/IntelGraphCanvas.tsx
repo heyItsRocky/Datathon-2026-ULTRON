@@ -37,7 +37,10 @@ function IntelGraphCanvasInner() {
     <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} defaultEdgeOptions={DEFAULT_EDGE_OPTIONS} onNodesChange={onNodesChange} onEdgesChange={onEdgesChange} onConnect={onConnect} onNodeClick={onNodeClick} onPaneClick={() => selectNode(null)} onDragOver={onDragOver} onDrop={onDrop} fitView colorMode="dark" className="bg-[#0f0f1a]">
       <Background variant={BackgroundVariant.Dots} gap={20} size={1} color="#333" />
       <Controls className="!rounded-[var(--radius-lg)] !border-[var(--color-border)] !bg-[#1a1a2e]" />
-      <MiniMap nodeColor={(node) => NODE_TYPE_CONFIGS[isIntelNodeType(node.type ?? '') ? node.type : 'person'].color} maskColor="rgba(0,0,0,0.6)" className="!border-[var(--color-border)]" />
+      <MiniMap nodeColor={(node) => {
+        const nodeType = node.type ?? '';
+        return NODE_TYPE_CONFIGS[isIntelNodeType(nodeType) ? nodeType : 'person'].color;
+      }} maskColor="rgba(0,0,0,0.6)" className="!border-[var(--color-border)]" />
     </ReactFlow>
   );
 }

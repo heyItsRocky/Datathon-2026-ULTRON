@@ -1,0 +1,29 @@
+{
+  "type": "project",
+  "project_id": "49084000000013049",
+  "project_domain": "zoho.in",
+  "org_id": "60075462809",
+  "env": {
+    "GATEWAY_URL": "https://49084000000013049.development.catalystserverless.com",
+    "LLM_DEPLOYMENT_ID": "YOUR_QUICKML_DEPLOYMENT_ID",
+    "KB_DOCUMENT_ID": "YOUR_KNOWLEDGE_BASE_DOC_ID",
+    "CONNECTION_ID": "YOUR_QUICKML_CONNECTION_ID",
+    "AUDIT_LOGGING": "enabled",
+    "MOCK_MODE": "true",
+    "CATALYST_ENV": "development",
+    "SLATE_DOMAIN": "https://ultron.ksp.catalystapps.com",
+    "MAX_CASES": "500",
+    "LOG_LEVEL": "INFO"
+  },
+  "services": {
+    "functions": {
+      "api": {
+        "type": "advancedio",
+        "runtime": "python3.13",
+        "memory": 512,
+        "timeout": 30,
+        "requirements_file": "requirements.txt"
+      }
+    }
+  }
+}
