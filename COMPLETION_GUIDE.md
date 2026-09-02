@@ -6,6 +6,46 @@
 
 ---
 
+## Tech Stack Assessment
+
+### Keep As-Is (Optimal)
+| Library | Version | Why |
+|---------|---------|-----|
+| **React** | 19.x | Latest, concurrent features |
+| **Vite** | 7.x | Latest, HMR, ESM, esbuild |
+| **TypeScript** | 5.x | Type safety |
+| **Tailwind CSS** | v4.x | Latest, CSS-first config |
+| **Zustand** | latest | Lightweight state, 5 stores already built |
+| **Leaflet** + `react-leaflet` | latest | Interactive maps, no change needed |
+| **Cytoscape.js** | latest | Network graph analysis, no React wrapper needed |
+| **React Flow** | latest | Node-based editor, 7 custom node types built |
+| **Recharts** | 2.x | Dashboard charts |
+| **Framer Motion** | latest | Animations |
+| **Axios** | latest | HTTP client with mock interceptors |
+| **Radix UI** | latest | Design system primitives |
+
+### Add (Missing)
+| Library | Why |
+|---------|-----|
+| **vitest** + `@testing-library/react` + `@testing-library/jest-dom` | Zero test files currently |
+| **`react-helmet-async`** or Vite SEO plugin | Meta tags per route (SPA needs this) |
+| **`react-error-boundary`** | Per-page error isolation |
+| **`@tanstack/react-query`** | Server state caching (replaces manual fetch in stores) |
+| **`react-paginate`** or TanStack Table pagination | No pagination on any list view |
+
+### Remove
+| Library | Why |
+|---------|-----|
+| (none) | All libraries are actively used |
+
+### Replace
+| Current | Replacement | Why |
+|---------|-------------|-----|
+| Manual fetch in Zustand stores | **TanStack React Query** | Caching, deduplication, background refetch, optimistic updates |
+| `VITE_MOCK_MODE=true` (manual toggle) | **MSW (Mock Service Worker)** | Intercept network at service worker level, toggle per-endpoint, share mock handlers with tests |
+
+---
+
 ## What Exists
 
 ### Frontend (Complete — 55 routes, 115+ files)
