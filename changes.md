@@ -14,7 +14,8 @@
    - Files: `frontend/src/hooks/useAnimeTransition.ts`, `CommandCenterPage.tsx`, `UnifiedDashboardPage.tsx`, `RadialNav.tsx`
    - Reason: `usePageEnter`/`useRadialTransition` were misnamed hooks breaking Rules of Hooks; renamed to `pageEnterProps`/`radialTransitionProps`. Baseline lint clean (warnings only), `npm run build` green.
 
-2. **`feat: local API, JWT auth, live API wiring, demo artifacts`**
+2. **`feat: local API, JWT auth, live API wiring, demo artifacts`** `6686854`
+2b. **`feat: wire frontend to live API with real JWT auth and demo artifacts`** `b0b8a59`
    - Files (new): `BLOCKERS.md`, `INTEGRATION_GAPS.md`, `DEMO_SCRIPT.md`, `scripts/local_api.py`, `frontend/src/features/dashboard/api/dashboardApi.ts`, `KSP_Datathon_2026_ULTRON_Submission.pptx`, `changes.md`
    - Files (modified): `frontend/.env.example`, `frontend/vite.config.ts`, `client.ts`, `authStore.ts`, `LoginPage.tsx`, DTO adapters (crime/cyber/admin), `crimeApi.ts`, CommandCenter + UnifiedDashboard pages, `README.md`, `.gitignore`, `COMPLETION_GUIDE.md`, `catalyst/functions/api/requirements.txt`
    - Reason: Catalyst `catalyst login` blocked (no Zoho OAuth/browser); shipped Flask+SQLite local API with envelope unwrap, UPPER_CASE→DTO mapping, real login, dashboard live adapter, filled PPTX, demo script.
