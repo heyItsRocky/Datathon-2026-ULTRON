@@ -50,3 +50,4 @@ Catalyst\ Videos/
 
 # Catalyst generated
 catalyst/.catalyst/
+.gh-askpass.sh
