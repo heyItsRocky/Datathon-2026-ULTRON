@@ -1,8 +1,8 @@
 # ULTRON — Completion Guide
 
 **Project**: Unified Law Enforcement Threat Response & Optimization Nexus — KSP Datathon 2026
-**Status**: 70% built | Needs: Catalyst deployment, auth, demo video
-**Stack**: React 19, Vite 7, TypeScript, Tailwind v4, Zustand, Leaflet, Cytoscape.js, React Flow, Python 3.13, Zoho Catalyst
+**Status**: ~85% | Auth+live API done (local); Cloud deploy + demo video open  
+**Stack**: React 19, Vite 7, TypeScript, Tailwind v4, Zustand, Leaflet, Cytoscape.js, React Flow, Python 3.13, Zoho Catalyst + local Flask fallback
 
 ---
 

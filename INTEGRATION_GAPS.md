@@ -58,7 +58,7 @@ Adapters updated in:
 
 ---
 
-## Mock Bypass & Dashboard Gap (OPEN)
+## Mock Bypass & Dashboard (mostly FIXED; Chat + cloud auth open)
 
 | Item | Status | Action |
 |------|--------|--------|
