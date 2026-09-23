@@ -99,15 +99,15 @@
 
 ## What's Missing
 
-### CRITICAL — Blocks Deployment
+### CRITICAL — Blocks Deployment (updated 2026-09-23)
 
-| # | Gap | Effort |
-|---|-----|--------|
-| 1 | **Catalyst deployment** — Backend not deployed to Zoho Catalyst | 4-6 hrs |
-| 2 | **Data Store setup** — 8 tables not created in Catalyst | 2 hrs |
-| 3 | **Seed data not loaded** — Run seed scripts against Catalyst DB | 1 hr |
-| 4 | **Auth not wired** — LoginPage is placeholder ("Coming soon") | 2 hrs |
-| 5 | **Mock mode toggle** — Frontend still uses `VITE_MOCK_MODE=true` | 30 min |
+| # | Gap | Effort | Status |
+|---|-----|--------|--------|
+| 1 | **Catalyst deployment** — Backend not deployed to Zoho Catalyst | 4-6 hrs | **BLOCKED** on Zoho OAuth (`catalyst login`) — see `BLOCKERS.md`. Local Flask fallback shipped (`scripts/local_api.py`). |
+| 2 | **Data Store setup** — 8 tables not created in Catalyst | 2 hrs | Local SQLite schema seeded; cloud tables still need Console setup after OAuth. |
+| 3 | **Seed data not loaded** — Run seed scripts against Catalyst DB | 1 hr | Local seeds load from mock JSON; `seed_data.py`/`seed_cyber.py` ready for cloud after OAuth. |
+| 4 | **Auth not wired** — LoginPage was placeholder | 2 hrs | **DONE** — real form + JWT via `POST /auth/login` (local) / Catalyst Embedded (cloud pending). |
+| 5 | **Mock mode toggle** — Frontend still uses `VITE_MOCK_MODE=true` | 30 min | **DONE** — `.env.example` + `frontend/.env` set `VITE_MOCK_MODE=false` → local API. |
 
 ### HIGH — Quality
 
@@ -125,8 +125,8 @@
 |---|-----|--------|
 | 11 | **No CI/CD** — No GitHub Actions | 1 hr |
 | 12 | **No error tracking** — No Sentry or similar | 30 min |
-| 13 | **No demo video** — Datathon requires it | 2-3 hrs |
-| 14 | **No prototype brief** — Submission template unfilled | 1 hr |
+| 13 | **No demo video** — Datathon requires it | 2-3 hrs | Open — record after OAuth deploy |
+| 14 | **No prototype brief** — Submission template unfilled | 1 hr | **DONE** — `KSP_Datathon_2026_ULTRON_Submission.pptx` + `DEMO_SCRIPT.md` |
 
 ---
 

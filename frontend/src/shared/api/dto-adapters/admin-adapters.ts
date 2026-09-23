@@ -11,8 +11,33 @@ function num(value: unknown, fallback = 0): number { return typeof value === 'nu
 function rows(value: unknown): Array<{ row: number; field: string; message: string }> { return Array.isArray(value) ? value.map((item) => { const r = rec(item); return { row: num(r.row), field: str(r.field), message: str(r.message) }; }) : []; }
 function history(value: unknown): Array<{ date: string; accuracy: number }> { return Array.isArray(value) ? value.map((item) => { const r = rec(item); return { date: str(r.date), accuracy: num(r.accuracy) }; }) : []; }
 
-export function adaptUser(raw: unknown): UserDTO { const r = rec(raw); return { id: str(r.id), name: str(r.name), email: str(r.email), role: str(r.role, 'viewer'), district: str(r.district), lastLogin: str(r.lastLogin), status: str(r.status, 'inactive'), createdAt: str(r.createdAt) }; }
+export function adaptUser(raw: unknown): UserDTO {
+  const r = rec(raw);
+  return {
+    id: str(r.id ?? r.USER_ID),
+    name: str(r.name ?? r.NAME),
+    email: str(r.email ?? r.EMAIL),
+    role: str(r.role ?? r.ROLE, 'viewer'),
+    district: str(r.district ?? r.DISTRICT),
+    lastLogin: str(r.lastLogin ?? r.LAST_LOGIN),
+    status: str(r.status ?? r.STATUS, 'inactive'),
+    createdAt: str(r.createdAt ?? r.CREATED_AT),
+  };
+}
 export function adaptSystemService(raw: unknown): SystemServiceDTO { const r = rec(raw); return { id: str(r.id), name: str(r.name), type: str(r.type), status: str(r.status, 'down'), latency: str(r.latency), uptime: str(r.uptime), lastChecked: str(r.lastChecked) }; }
 export function adaptMlModel(raw: unknown): MlModelDTO { const r = rec(raw); return { id: str(r.id), name: str(r.name), algorithm: str(r.algorithm), version: str(r.version), status: str(r.status, 'down'), accuracy: num(r.accuracy), lastTrained: str(r.lastTrained), trainHistory: history(r.trainHistory) }; }
-export function adaptAuditLog(raw: unknown): AuditLogDTO { const r = rec(raw); return { id: str(r.id), timestamp: str(r.timestamp), actor: str(r.actor), actorId: str(r.actorId), action: str(r.action), target: str(r.target), details: str(r.details), ip: str(r.ip), severity: str(r.severity, 'info') }; }
+export function adaptAuditLog(raw: unknown): AuditLogDTO {
+  const r = rec(raw);
+  return {
+    id: str(r.id ?? r.EVENT_ID),
+    timestamp: str(r.timestamp ?? r.TIMESTAMP),
+    actor: str(r.actor ?? r.PERFORMED_BY),
+    actorId: str(r.actorId ?? r.PERFORMED_BY),
+    action: str(r.action ?? r.ACTION),
+    target: str(r.target ?? r.DETAIL),
+    details: str(r.details ?? r.DETAIL),
+    ip: str(r.ip),
+    severity: str(r.severity, 'info'),
+  };
+}
 export function adaptIngestionJob(raw: unknown): IngestionJobDTO { const r = rec(raw); return { id: str(r.id), fileName: str(r.fileName), type: str(r.type), rowCount: num(r.rowCount), successCount: num(r.successCount), errorCount: num(r.errorCount), status: str(r.status, 'pending'), startedAt: str(r.startedAt), completedAt: typeof r.completedAt === 'string' ? r.completedAt : undefined, uploadedBy: str(r.uploadedBy), errors: rows(r.errors) }; }

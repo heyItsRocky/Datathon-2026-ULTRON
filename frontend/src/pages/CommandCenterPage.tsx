@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
-import dashboard from '@/mocks/dashboard-stats.json';
 import { pageEnterProps } from '@/hooks/useAnimeTransition';
+import { fetchDashboardStats, type DashboardStats } from '@/features/dashboard/api/dashboardApi';
 import { EmergencyFooter, ErrorState, KSPHeader, LoadingSkeleton, RadialNav } from '@/shared/components';
 import { useAuthStore } from '@/stores/authStore';
 
@@ -37,20 +37,25 @@ export default function CommandCenterPage() {
   const navigate = useNavigate();
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   const [status, setStatus] = useState<LoadState>('loading');
+  const [dashboard, setDashboard] = useState<DashboardStats | null>(null);
 
-  useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setStatus(dashboard.kpis.length >= 4 ? 'loaded' : 'error');
-    }, 700);
-
-    return () => window.clearTimeout(timer);
+  const load = useCallback(async () => {
+    setStatus('loading');
+    try {
+      const data = await fetchDashboardStats();
+      setDashboard(data);
+      setStatus(data.kpis.length >= 4 ? 'loaded' : 'error');
+    } catch {
+      setStatus('error');
+    }
   }, []);
 
+  useEffect(() => {
+    void load();
+  }, [load]);
+
   const retry = () => {
-    setStatus('loading');
-    window.setTimeout(() => {
-      setStatus(dashboard.kpis.length >= 4 ? 'loaded' : 'error');
-    }, 500);
+    void load();
   };
 
   const handleSegmentClick = (segment: string) => {
@@ -77,17 +82,17 @@ export default function CommandCenterPage() {
           <div className="grid gap-3 md:grid-cols-4">
             {Array.from({ length: 4 }).map((_, index) => <LoadingSkeleton key={index} className="h-28" variant="card" />)}
           </div>
-          <LoadingSkeleton className="h-20 rounded-[var(--radius-2xl)]" variant="card" />
+          <LoadingSkeleton className="h-20" variant="card" />
         </div>
       </div>
     );
   }
 
-  if (status === 'error') {
+  if (status === 'error' || !dashboard) {
     return (
       <div className="grid min-h-screen place-items-center bg-[var(--color-background)] px-4 py-6 text-[var(--color-text-primary)]">
         <div className="w-full max-w-xl">
-          <ErrorState message="ULTRON could not load command center telemetry. Verify the Phase 1 mock payload and retry." onRetry={retry} />
+          <ErrorState message="ULTRON could not load command center telemetry. Retry to reconnect to the live API." onRetry={retry} />
         </div>
       </div>
     );

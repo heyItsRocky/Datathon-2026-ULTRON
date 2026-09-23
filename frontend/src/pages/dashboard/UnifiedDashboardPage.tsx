@@ -20,8 +20,8 @@ import {
   Upload,
 } from 'lucide-react';
 import { motion } from 'motion/react';
-import dashboard from '@/mocks/dashboard-stats.json';
 import { pageEnterProps } from '@/hooks/useAnimeTransition';
+import { fetchDashboardStats, type DashboardStats } from '@/features/dashboard/api/dashboardApi';
 import { AlertFeed, EmptyState, ErrorState, KpiCard, LoadingSkeleton, type AlertItemData } from '@/shared/components';
 import { Badge, Button, Select } from '@/shared/ui-kit';
 import { useFilterStore } from '@/stores/filterStore';
@@ -81,21 +81,30 @@ export default function UnifiedDashboardPage() {
   const dateRange = useFilterStore((state) => state.globalDateRange);
   const setDateRange = useFilterStore((state) => state.setGlobalDateRange);
   const [status, setStatus] = useState<LoadState>('loading');
+  const [dashboard, setDashboard] = useState<DashboardStats | null>(null);
+
+  const load = async () => {
+    setStatus('loading');
+    try {
+      const data = await fetchDashboardStats();
+      setDashboard(data);
+      setStatus(Array.isArray(data.kpis) && data.kpis.length >= 4 ? 'ready' : 'error');
+    } catch {
+      setStatus('error');
+    }
+  };
 
   useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setStatus(Array.isArray(dashboard.kpis) && dashboard.kpis.length === 4 ? 'ready' : 'error');
-    }, 700);
-
-    return () => window.clearTimeout(timer);
+    void load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const selectedDistrict = normalizeDistrict(district);
-  const rankings = dashboard.districtRankings as Ranking[];
-  const anomalies = dashboard.anomalies as Anomaly[];
-  const trendData = buildTrendData(dashboard.trend as DashboardTrend);
-  const kpis = dashboard.kpis as DashboardKpi[];
-  const quickActions = dashboard.quickActions as QuickAction[];
+  const rankings = (dashboard?.districtRankings ?? []) as Ranking[];
+  const anomalies = (dashboard?.anomalies ?? []) as Anomaly[];
+  const trendData = buildTrendData((dashboard?.trend ?? { labels: [], crime: [], cyber: [] }) as DashboardTrend);
+  const kpis = (dashboard?.kpis ?? []) as DashboardKpi[];
+  const quickActions = (dashboard?.quickActions ?? []) as QuickAction[];
 
   const filteredRankings = useMemo(() => {
     if (selectedDistrict === 'All Karnataka') {
@@ -116,10 +125,7 @@ export default function UnifiedDashboardPage() {
   const isEmpty = status === 'ready' && filteredRankings.length === 0 && filteredAnomalies.length === 0;
 
   const retry = () => {
-    setStatus('loading');
-    window.setTimeout(() => {
-      setStatus(Array.isArray(dashboard.kpis) && dashboard.kpis.length === 4 ? 'ready' : 'error');
-    }, 500);
+    void load();
   };
 
   if (status === 'loading') {

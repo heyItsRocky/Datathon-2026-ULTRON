@@ -13,7 +13,31 @@ function timeline(v: unknown) { return Array.isArray(v) ? v.map((x)=>{const r=re
 function assocTarget(v: unknown) { return Array.isArray(v) ? v.map((x)=>{const r=rec(x); return {id:str(r.id,''), type:str(r.type,''), target:str(r.target,'')};}) : []; }
 function assocDomain(v: unknown) { return Array.isArray(v) ? v.map((x)=>{const r=rec(x); return {id:str(r.id,''), type:str(r.type,'')};}) : []; }
 
-export function adaptCyberIncident(raw: unknown): CyberIncidentDTO { const r=rec(raw); const ind=rec(r.indicators); return {id:str(r.id,'UNKNOWN-CYB'), type:str(r.type), severity:str(r.severity,'low'), status:str(r.status,'Open'), district:str(r.district), title:str(r.title), description:str(r.description), date:str(r.date,''), detectedAt:str(r.detectedAt,''), source:str(r.source), target:str(r.target), affectedSystems:arr(r.affectedSystems), indicators:{ips:arr(ind.ips), domains:arr(ind.domains), hashes:arr(ind.hashes)}, attackVector:str(r.attackVector), impact:str(r.impact), remediation:str(r.remediation), assignedTo:str(r.assignedTo), timeline:timeline(r.timeline), evidence:arr(r.evidence)}; }
+export function adaptCyberIncident(raw: unknown): CyberIncidentDTO {
+  const r = rec(raw);
+  const ind = rec(r.indicators);
+  return {
+    id: str(r.id ?? r.THREAT_ID, 'UNKNOWN-CYB'),
+    type: str(r.type ?? r.THREAT_TYPE),
+    severity: str(r.severity ?? r.SEVERITY, 'low'),
+    status: str(r.status ?? r.STATUS, 'Open'),
+    district: str(r.district ?? r.DISTRICT),
+    title: str(r.title ?? r.TITLE),
+    description: str(r.description ?? r.DESCRIPTION),
+    date: str(r.date, ''),
+    detectedAt: str(r.detectedAt ?? r.DETECTION_DATE ?? r.TIMESTAMP, ''),
+    source: str(r.source ?? r.SOURCE),
+    target: str(r.target ?? r.TARGET),
+    affectedSystems: arr(r.affectedSystems),
+    indicators: { ips: arr(ind.ips), domains: arr(ind.domains), hashes: arr(ind.hashes) },
+    attackVector: str(r.attackVector ?? r.ATTACK_VECTOR),
+    impact: str(r.impact ?? r.IMPACT),
+    remediation: str(r.remediation ?? r.REMEDIATION),
+    assignedTo: str(r.assignedTo ?? r.ASSIGNED_TO),
+    timeline: timeline(r.timeline),
+    evidence: arr(r.evidence),
+  };
+}
 export function adaptIpIntelligence(raw: unknown): IpIntelligenceDTO { const r=rec(raw), g=rec(r.geolocation), n=rec(r.network), t=rec(r.threatData); return {ip:str(r.ip,''), reputation:str(r.reputation,'low'), reputationScore:num(r.reputationScore), geolocation:{city:str(g.city),region:str(g.region),country:str(g.country),lat:num(g.lat),lng:num(g.lng)}, network:{isp:str(n.isp),asn:str(n.asn),org:str(n.org),type:str(n.type)}, threatData:{riskLevel:num(t.riskLevel),incidentCount:num(t.incidentCount),firstSeen:str(t.firstSeen,''),lastSeen:str(t.lastSeen,''),categories:arr(t.categories)}, associatedIncidents:assocTarget(r.associatedIncidents)}; }
 export function adaptDomainIntelligence(raw: unknown): DomainIntelligenceDTO { const r=rec(raw), w=rec(r.whois), s=rec(r.ssl), d=rec(r.dns); return {domain:str(r.domain,''), threatScore:num(r.threatScore), riskLevel:str(r.riskLevel,'low'), whois:{registrar:str(w.registrar),creationDate:str(w.creationDate,''),expirationDate:str(w.expirationDate,''),organization:str(w.organization),country:str(w.country)}, ssl:{valid:bool(s.valid), issuer:typeof s.issuer==='string'?s.issuer:null, expiryDate:typeof s.expiryDate==='string'?s.expiryDate:null}, dns:{aRecords:arr(d.aRecords),mxRecords:arr(d.mxRecords),nsRecords:arr(d.nsRecords)}, phishingProbability:num(r.phishingProbability), categories:arr(r.categories), associatedIncidents:assocDomain(r.associatedIncidents)}; }
 export function adaptEvidenceRecord(raw: unknown): EvidenceRecordDTO { const r=rec(raw); return {id:str(r.id), type:str(r.type), title:str(r.title), description:str(r.description), caseId:str(r.caseId), collectedAt:str(r.collectedAt,''), collectedBy:str(r.collectedBy), status:str(r.status), chainOfCustody:Array.isArray(r.chainOfCustody)?r.chainOfCustody.map((x)=>{const c=rec(x); return {action:str(c.action),by:str(c.by),at:str(c.at,'')};}):[], hash:str(r.hash,'')}; }

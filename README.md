@@ -21,6 +21,48 @@
 
 ---
 
+## Getting Started
+
+### Quick start (local — no Catalyst login required)
+
+```bash
+# 1) Local API (SQLite + mock/seed data)
+pip3 install flask scikit-learn --user --break-system-packages
+python3 scripts/local_api.py --seed
+# → http://127.0.0.1:8787
+
+# 2) Frontend (live API mode)
+cd frontend
+cp .env.example .env   # VITE_MOCK_MODE=false, VITE_API_BASE_URL=http://127.0.0.1:8787
+npm ci
+npm run dev
+# → http://localhost:5173
+
+# Login: admin@ksp.gov.in / admin123
+```
+
+### Catalyst cloud deploy
+
+See `catalyst/DEPLOYMENT.md`. Requires interactive Zoho OAuth (`catalyst login`) — documented blocker in `BLOCKERS.md` if credentials are unavailable.
+
+### Docs
+
+| Doc | Purpose |
+|-----|---------|
+| [DEMO_SCRIPT.md](DEMO_SCRIPT.md) | 3-minute judge walkthrough + curl probes |
+| [BLOCKERS.md](BLOCKERS.md) | Catalyst OAuth / Docker blockers + unblock steps |
+| [INTEGRATION_GAPS.md](INTEGRATION_GAPS.md) | Frontend↔backend envelope/field mapping status |
+| `KSP_Datathon_2026_ULTRON_Submission.pptx` | Filled submission deck |
+
+### Mock vs live
+
+| `VITE_MOCK_MODE` | Behavior |
+|------------------|----------|
+| `true` (default if unset) | `mockFetch` intercepts — no network |
+| `false` | Axios → real API (local Flask or Catalyst gateway) with envelope unwrap + DTO field mapping |
+
+---
+
 ## Problem Statement
 
 The Karnataka State Police, through its **State Crime Records Bureau (SCRB)**, faces critical challenges in modern crime fighting: **siloed data, manual reporting, and the inability to predict threats before they escalate**. Officers and analysts lack the integrated, intelligent tools needed for proactive policing in both physical and digital domains.
@@ -246,9 +288,13 @@ ULTRON/
 │   ├── package.json
 │   └── vite.config.ts
 ├── scripts/
+│   ├── local_api.py                   # ★ Local Flask API (SQLite fallback when Catalyst login blocked)
 │   ├── seed_data.py                  # Crime seed data (500+ crimes, 200+ criminals)
 │   └── seed_cyber.py                 # Cyber seed data (200+ threats, 500+ IOCs)
 ├── PRD.md                            # Product Requirements Document
+├── BLOCKERS.md                       # Cloud deploy blockers + unblock steps
+├── INTEGRATION_GAPS.md               # API integration status
+├── DEMO_SCRIPT.md                    # 3-minute demo walkthrough
 └── README.md                         # This file
 ```
 
@@ -256,7 +302,7 @@ ULTRON/
 
 ## API Overview
 
-The unified API function serves all routes. When `VITE_MOCK_MODE=true` (default), the frontend uses mock data; set to `false` to hit the live Catalyst backend.
+The unified API function serves all routes. When `VITE_MOCK_MODE=true` (default if unset), the frontend uses mock data; set to `false` to hit the live backend (local Flask fallback or Catalyst).
 
 | Prefix | Handler | Key Endpoints |
 |---|---|---|

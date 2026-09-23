@@ -29,6 +29,12 @@ frontend/build/
 .env.local
 .env.production
 
+# Local API SQLite database + runtime logs
+scripts/*.db
+scripts/ultron_local.db
+local_api.out
+local_api.pid
+
 # IDE
 .idea/
 .vscode/
