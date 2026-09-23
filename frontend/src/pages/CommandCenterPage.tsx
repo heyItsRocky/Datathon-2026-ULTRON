@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
 import dashboard from '@/mocks/dashboard-stats.json';
-import { usePageEnter } from '@/hooks/useAnimeTransition';
+import { pageEnterProps } from '@/hooks/useAnimeTransition';
 import { EmergencyFooter, ErrorState, KSPHeader, LoadingSkeleton, RadialNav } from '@/shared/components';
 import { useAuthStore } from '@/stores/authStore';
 
@@ -96,11 +96,11 @@ export default function CommandCenterPage() {
   return (
     <div className="min-h-screen bg-[var(--color-background)] px-4 py-6 text-[var(--color-text-primary)] sm:px-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] max-w-7xl flex-col gap-6">
-        <motion.div {...usePageEnter(0)}>
+        <motion.div {...pageEnterProps(0)}>
           <KSPHeader />
         </motion.div>
 
-        <motion.section {...usePageEnter(1)} className="glass-card flex flex-1 flex-col items-center justify-center rounded-[var(--radius-2xl)] px-4 py-8 sm:px-8">
+        <motion.section {...pageEnterProps(1)} className="glass-card flex flex-1 flex-col items-center justify-center rounded-[var(--radius-2xl)] px-4 py-8 sm:px-8">
           <div className="mb-6 text-center">
             <p className="text-xs font-bold uppercase tracking-[0.24em] text-[var(--color-gold)]">Command Center</p>
             <h2 className="mt-3 text-3xl font-black sm:text-4xl">KSP operational workspace</h2>
@@ -111,7 +111,7 @@ export default function CommandCenterPage() {
           <RadialNav onSegmentClick={handleSegmentClick} />
         </motion.section>
 
-        <motion.section {...usePageEnter(2)} className="grid gap-3 md:grid-cols-4">
+        <motion.section {...pageEnterProps(2)} className="grid gap-3 md:grid-cols-4">
           {dashboard.kpis.map((kpi) => (
             <div key={kpi.title} className="glass-card rounded-[var(--radius-xl)] border border-white/6 px-4 py-4">
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--color-text-secondary)]">{kpi.title}</p>
@@ -126,7 +126,7 @@ export default function CommandCenterPage() {
           ))}
         </motion.section>
 
-        <motion.div {...usePageEnter(3)}>
+        <motion.div {...pageEnterProps(3)}>
           <EmergencyFooter />
         </motion.div>
       </div>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Map, LayoutDashboard, Network, ShieldAlert } from 'lucide-react';
 import { motion } from 'motion/react';
-import { useRadialTransition } from '@/hooks/useAnimeTransition';
+import { radialTransitionProps } from '@/hooks/useAnimeTransition';
 import { useAuthStore } from '@/stores/authStore';
 import { KSPEmblem } from './KSPEmblem';
 
@@ -80,7 +80,7 @@ export function RadialNav({ onSegmentClick }: RadialNavProps) {
               transition={{ duration: 0.4, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
             >
               <motion.path
-                {...useRadialTransition(segment.id)}
+                {...radialTransitionProps(segment.id)}
                 d={describeArc(segment.start, segment.end, 94, 170)}
                 fill={segment.color}
                 filter={isHovered ? 'url(#ring-glow)' : undefined}

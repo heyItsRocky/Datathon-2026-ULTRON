@@ -5,7 +5,7 @@ const STAGGER_DURATION = 0.08;
 const SLOW_DURATION = 0.3;
 const EASE_OUT = [0.16, 1, 0.3, 1] as const;
 
-export function usePageEnter(index = 0): MotionProps {
+export function pageEnterProps(index = 0): MotionProps {
   return {
     initial: { opacity: 0, y: 24 },
     animate: { opacity: 1, y: 0 },
@@ -17,7 +17,7 @@ export function usePageEnter(index = 0): MotionProps {
   };
 }
 
-export function useRadialTransition(target: string): MotionProps {
+export function radialTransitionProps(target: string): MotionProps {
   const hoverScale = target === 'dashboard' ? 1.06 : 1.04;
 
   return {

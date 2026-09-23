@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 import { motion } from 'motion/react';
 import dashboard from '@/mocks/dashboard-stats.json';
-import { usePageEnter } from '@/hooks/useAnimeTransition';
+import { pageEnterProps } from '@/hooks/useAnimeTransition';
 import { AlertFeed, EmptyState, ErrorState, KpiCard, LoadingSkeleton, type AlertItemData } from '@/shared/components';
 import { Badge, Button, Select } from '@/shared/ui-kit';
 import { useFilterStore } from '@/stores/filterStore';
@@ -154,7 +154,7 @@ export default function UnifiedDashboardPage() {
   if (isEmpty) {
     return (
       <div className="grid gap-6">
-        <motion.div {...usePageEnter(0)} className="glass-card flex flex-wrap items-center justify-between gap-3 rounded-[var(--radius-2xl)] p-5">
+        <motion.div {...pageEnterProps(0)} className="glass-card flex flex-wrap items-center justify-between gap-3 rounded-[var(--radius-2xl)] p-5">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-gold)]">Unified Dashboard</p>
             <h1 className="mt-2 text-2xl font-black">Filtered workspace</h1>
@@ -162,7 +162,7 @@ export default function UnifiedDashboardPage() {
           </div>
           <Select onValueChange={setDistrict} options={districtOptions} value={district} />
         </motion.div>
-        <motion.div {...usePageEnter(1)}>
+        <motion.div {...pageEnterProps(1)}>
           <EmptyState
             actionLabel="Reset to All Karnataka"
             description="Welcome to ULTRON. Upload data or trigger a scrape to begin. No anomalies or district scores are available for the selected view yet."
@@ -170,7 +170,7 @@ export default function UnifiedDashboardPage() {
             title="Welcome to ULTRON"
           />
         </motion.div>
-        <motion.div {...usePageEnter(2)} className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <motion.div {...pageEnterProps(2)} className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {quickActions.map((action) => {
             const Icon = actionIcons[action.icon as keyof typeof actionIcons] ?? Globe;
 
@@ -196,7 +196,7 @@ export default function UnifiedDashboardPage() {
 
   return (
     <div className="grid gap-6">
-      <motion.section {...usePageEnter(0)} className="glass-card flex flex-col gap-4 rounded-[var(--radius-2xl)] p-5 xl:flex-row xl:items-center xl:justify-between">
+      <motion.section {...pageEnterProps(0)} className="glass-card flex flex-col gap-4 rounded-[var(--radius-2xl)] p-5 xl:flex-row xl:items-center xl:justify-between">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-gold)]">Unified Dashboard</p>
           <h1 className="mt-2 text-2xl font-black">Karnataka operational risk picture</h1>
@@ -216,7 +216,7 @@ export default function UnifiedDashboardPage() {
           const Icon = kpiIcons[index];
 
           return (
-            <motion.div key={kpi.title} {...usePageEnter(index + 1)}>
+            <motion.div key={kpi.title} {...pageEnterProps(index + 1)}>
               <KpiCard icon={Icon} title={kpi.title} trend={kpi.trend} value={kpi.value} />
             </motion.div>
           );
@@ -224,7 +224,7 @@ export default function UnifiedDashboardPage() {
       </section>
 
       <section className="grid gap-6 xl:grid-cols-[2fr_1fr]">
-        <motion.div {...usePageEnter(5)} className="glass-card rounded-[var(--radius-2xl)] p-5">
+        <motion.div {...pageEnterProps(5)} className="glass-card rounded-[var(--radius-2xl)] p-5">
           <div className="mb-5 flex items-center justify-between gap-3">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--color-gold)]">Combined Trend Chart</p>
@@ -262,7 +262,7 @@ export default function UnifiedDashboardPage() {
           </div>
         </motion.div>
 
-        <motion.aside {...usePageEnter(6)} className="glass-card rounded-[var(--radius-2xl)] p-5">
+        <motion.aside {...pageEnterProps(6)} className="glass-card rounded-[var(--radius-2xl)] p-5">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--color-gold)]">District Risk Ranking</p>
           <h2 className="mt-1 text-xl font-bold">Highest-priority districts</h2>
           <div className="mt-5 space-y-4">
@@ -291,7 +291,7 @@ export default function UnifiedDashboardPage() {
       </section>
 
       <section className="grid gap-6 xl:grid-cols-[2fr_1fr]">
-        <motion.div {...usePageEnter(7)} className="space-y-3">
+        <motion.div {...pageEnterProps(7)} className="space-y-3">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--color-gold)]">Anomaly Feed</p>
             <h2 className="mt-1 text-xl font-bold">Escalated district anomalies</h2>
@@ -299,7 +299,7 @@ export default function UnifiedDashboardPage() {
           <AlertFeed alerts={buildAnomalyAlerts(filteredAnomalies)} />
         </motion.div>
 
-        <motion.aside {...usePageEnter(8)} className="glass-card rounded-[var(--radius-2xl)] p-5">
+        <motion.aside {...pageEnterProps(8)} className="glass-card rounded-[var(--radius-2xl)] p-5">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--color-gold)]">Quick Actions</p>
           <h2 className="mt-1 text-xl font-bold">Immediate workflows</h2>
           <div className="mt-5 grid gap-3">
