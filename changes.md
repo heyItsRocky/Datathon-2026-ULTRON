@@ -25,7 +25,7 @@
 ### Verification (this session)
 - `npm run lint` → exit 0 (warnings only)
 - `npm run build` → exit 0 (`✓ built`)
-- Local API: `/health` healthy, `POST /auth/login` → JWT, modules smoke-tested after ZCQL COUNT fix
+- Local API smoke: `/health` healthy; JWT login; `/crime/cases`, `/crime/stats`, `/dashboard/stats`, `/cyber/*`, `/intel/briefs`, `/maps/hotspots`, `/network/crime`, `/admin/users`, `/admin/audit-logs`, `POST /chat/query` all return data
 
 ### Not done / blocked
 - Cloud Catalyst deploy (OAuth) — BLOCKERS.md
